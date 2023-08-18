@@ -1,0 +1,60 @@
+06.08.2023 00:03:53.724 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 00:03:53.749 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 00:03:53.773 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 00:03:53.841 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 00:03:53.843 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 00:03:53.849 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 00:03:53.913 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:03:53.914 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:03:54.068 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 00:03:54.069 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 00:03:54.674 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:03:54.675 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:03:55.965 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:03:56.254 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:03:56.256 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:03:56.269 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:03:56.270 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:03:56.688 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:03:56.837 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:03:56.837 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:03:56.846 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:03:56.847 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:03:57.234 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:03:57.250 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 00:03:57.251 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 00:03:57.254 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:03:57.255 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:03:57.781 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 00:03:57.782 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 00:03:57.783 [main] DEBUG c.l.QueriesProcessing - Table 1 log message
+06.08.2023 00:06:04.086 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 00:06:04.105 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 00:06:04.133 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 00:06:04.218 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 00:06:04.220 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 00:06:04.226 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 00:06:04.296 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:06:04.298 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:06:04.543 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 00:06:04.544 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 00:06:05.333 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:06:05.334 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:06:06.744 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:06:07.071 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:06:07.072 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:06:07.084 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:06:07.085 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:06:07.493 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:06:07.689 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:06:07.690 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:06:07.699 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:06:07.700 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:06:08.095 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:06:08.110 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 00:06:08.111 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 00:06:08.115 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:06:08.116 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:06:08.631 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 00:06:08.632 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 00:06:08.633 [main] DEBUG c.l.QueriesProcessing - Table 1 log message

@@ -1,0 +1,50 @@
+<assembly>
+    <id>my-assembly</id>
+    <formats>
+        <format>zip</format>
+    </formats>
+    <fileSets>
+        <fileSet>
+            <directory>target/lib</directory>
+            <outputDirectory>/lib</outputDirectory>
+            <includes>
+                <include>*</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>target/conf</directory>
+            <outputDirectory>/conf</outputDirectory>
+            <includes>
+                <include>*</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>target/sql</directory>
+            <outputDirectory>/sql</outputDirectory>
+            <includes>
+                <include>*</include>
+            </includes>
+        </fileSet>
+        <fileSet>
+            <directory>${project.basedir}/log</directory>
+            <outputDirectory>/log</outputDirectory>
+            <includes>
+                <include>*</include>
+            </includes>
+            <!--            <outputDirectory>/logfiles</outputDirectory>-->
+            <!--            <includes>-->
+            <!--                <include>**/emptyfile.txt</include>-->
+            <!--            </includes>-->
+        </fileSet>
+    </fileSets>
+    <files>
+        <file>
+            <source>${project.build.directory}/${project.build.finalName}.jar</source>
+            <outputDirectory>/</outputDirectory>
+        </file>
+        <file>
+            <source>${project.build.directory}/logback.xml</source>
+            <outputDirectory>/log</outputDirectory>
+        </file>
+    </files>
+</assembly>

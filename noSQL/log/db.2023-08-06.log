@@ -1,0 +1,1006 @@
+06.08.2023 00:50:31.371 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 00:50:31.382 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 00:50:31.394 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 00:50:31.427 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 00:50:31.428 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 00:50:31.432 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 00:50:31.476 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:50:31.477 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:50:31.570 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 00:50:31.570 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 00:50:31.930 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:50:31.931 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:50:32.959 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:50:33.142 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:50:33.143 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:50:33.150 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:50:33.150 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:50:33.541 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:50:33.674 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:50:33.674 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:50:33.680 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:50:33.680 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:50:34.030 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:50:34.041 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 00:50:34.041 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 00:50:34.043 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:50:34.043 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:50:34.308 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 00:50:34.308 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 00:50:34.309 [main] DEBUG c.l.QueriesProcessing - Table 1 log message
+06.08.2023 00:53:17.685 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 00:53:17.695 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 00:53:17.708 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 00:53:17.738 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 00:53:17.739 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 00:53:17.743 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 00:53:17.779 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:17.780 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:17.857 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 00:53:17.857 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 00:53:18.213 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:18.213 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:19.061 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:53:19.248 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:19.248 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:19.253 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:19.254 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:19.643 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:53:19.773 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:19.773 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:19.778 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:19.778 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:20.112 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:53:20.122 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 00:53:20.123 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 00:53:20.125 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:20.125 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:20.403 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 00:53:20.403 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 00:53:20.404 [main] DEBUG c.l.QueriesProcessing - Table 1 log message
+06.08.2023 00:53:58.588 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 00:53:58.592 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:58.594 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:58.626 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 00:53:58.626 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 00:53:58.803 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:58.803 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:59.644 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:53:59.645 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 00:53:59.645 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 00:53:59.986 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 00:53:59.988 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 00:53:59.988 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 00:54:00.066 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 00:54:00.138 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 00:54:00.210 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 00:54:00.212 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 00:54:00.212 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 00:54:00.287 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 00:54:00.361 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 00:54:00.440 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 00:54:00.444 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 00:54:00.449 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 00:54:00.534 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 00:54:00.535 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 00:54:00.536 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 00:54:00.610 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 00:54:00.610 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 00:54:00.818 [main] INFO  com.level3_2.App - Generated 10000 DTO
+06.08.2023 00:54:00.818 [main] INFO  com.level3_2.App - RPS of generating is 0.127
+06.08.2023 00:54:00.819 [main] INFO  com.level3_2.App - RPS DTO in second 78740.15748031496
+06.08.2023 00:54:02.873 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 00:54:02.910 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 2.053 
+06.08.2023 00:54:02.910 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 4870.9206039941555 
+06.08.2023 00:54:02.910 [main] INFO  c.level3_1.dao.DAO - Inserted rows 10000 
+06.08.2023 00:54:02.910 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 00:54:02.952 [main] INFO  c.level3_1.dao.DAO - The largest number of products (50) of the Health type is in the store at the address ????, ???. ???????, 20-?
+06.08.2023 00:54:02.956 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 01:14:32.139 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 01:14:32.166 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:14:32.168 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:14:32.203 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:14:32.203 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:14:32.416 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:14:32.417 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:14:32.848 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:14:32.848 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:14:32.848 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:14:33.000 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:14:33.001 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 01:14:33.002 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 01:14:33.024 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 01:14:33.028 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 01:14:33.032 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 01:14:33.033 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 01:14:33.034 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 01:14:33.044 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 01:14:33.049 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 01:14:33.057 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 01:14:33.058 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:14:33.059 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:14:33.069 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:14:33.075 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:14:33.076 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:14:33.081 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:14:33.081 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 01:14:33.171 [main] INFO  com.level3_2.App - Generated 10 DTO
+06.08.2023 01:14:33.172 [main] INFO  com.level3_2.App - RPS of generating is 0.061
+06.08.2023 01:14:33.173 [main] INFO  com.level3_2.App - RPS DTO in second 163.9344262295082
+06.08.2023 01:14:33.181 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 01:14:33.181 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 0.008 
+06.08.2023 01:14:33.181 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 1250.0 
+06.08.2023 01:14:33.181 [main] INFO  c.level3_1.dao.DAO - Inserted rows 10 
+06.08.2023 01:14:33.182 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 01:14:33.184 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 01:26:37.427 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 01:26:37.445 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:26:37.446 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:26:37.483 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:26:37.483 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:26:37.682 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:26:37.683 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:26:38.123 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:26:38.124 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:26:38.124 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:26:38.166 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:26:38.167 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 01:26:38.167 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 01:26:38.185 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 01:26:38.188 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 01:26:38.192 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 01:26:38.192 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 01:26:38.192 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 01:26:38.202 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 01:26:38.207 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 01:26:38.215 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 01:26:38.215 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:26:38.216 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:26:38.222 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:26:38.225 [main] DEBUG c.l.QueriesProcessing - Index -1 created
+06.08.2023 01:26:38.226 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:26:38.226 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:26:38.230 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:26:38.231 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 01:26:38.306 [main] INFO  com.level3_2.App - Generated 10 DTO
+06.08.2023 01:26:38.306 [main] INFO  com.level3_2.App - RPS of generating is 0.053
+06.08.2023 01:26:38.307 [main] INFO  com.level3_2.App - RPS DTO in second 188.67924528301887
+06.08.2023 01:26:38.318 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 01:26:38.322 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 0.011 
+06.08.2023 01:26:38.322 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 909.0909090909091 
+06.08.2023 01:26:38.322 [main] INFO  c.level3_1.dao.DAO - Inserted rows 10 
+06.08.2023 01:26:38.322 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 01:26:38.324 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 01:27:48.877 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 01:27:48.890 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:27:48.891 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:27:48.925 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:27:48.926 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:27:49.109 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:27:49.110 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:27:49.624 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:27:49.625 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:27:49.625 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:27:49.664 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:27:49.665 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 01:27:49.666 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 01:27:49.685 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 01:27:49.688 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 01:27:49.692 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 01:27:49.693 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 01:27:49.693 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 01:27:49.704 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 01:27:49.710 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 01:27:49.718 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 01:27:49.719 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:27:49.720 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:27:49.725 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:27:49.728 [main] DEBUG c.l.QueriesProcessing - Index class java.lang.String created
+06.08.2023 01:27:49.728 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:27:49.729 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:27:49.734 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:27:49.734 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 01:27:49.797 [main] INFO  com.level3_2.App - Generated 10 DTO
+06.08.2023 01:27:49.798 [main] INFO  com.level3_2.App - RPS of generating is 0.05
+06.08.2023 01:27:49.799 [main] INFO  com.level3_2.App - RPS DTO in second 200.0
+06.08.2023 01:27:49.806 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 01:27:49.808 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 0.008 
+06.08.2023 01:27:49.809 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 1250.0 
+06.08.2023 01:27:49.809 [main] INFO  c.level3_1.dao.DAO - Inserted rows 10 
+06.08.2023 01:27:49.809 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 01:27:49.810 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 01:28:21.674 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 01:28:21.685 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:28:21.687 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:28:21.722 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:28:21.723 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:28:21.915 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:28:21.915 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:28:22.365 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:28:22.366 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:28:22.366 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:28:22.505 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:28:22.505 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 01:28:22.506 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 01:28:22.519 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 01:28:22.522 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 01:28:22.526 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 01:28:22.526 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 01:28:22.527 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 01:28:22.535 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 01:28:22.539 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 01:28:22.544 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 01:28:22.545 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:28:22.546 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:28:22.552 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:28:22.555 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:28:22.556 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:28:22.556 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:28:22.560 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:28:22.560 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 01:28:22.662 [main] INFO  com.level3_2.App - Generated 10 DTO
+06.08.2023 01:28:22.662 [main] INFO  com.level3_2.App - RPS of generating is 0.078
+06.08.2023 01:28:22.664 [main] INFO  com.level3_2.App - RPS DTO in second 128.2051282051282
+06.08.2023 01:28:22.675 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 01:28:22.678 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 0.011 
+06.08.2023 01:28:22.678 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 909.0909090909091 
+06.08.2023 01:28:22.678 [main] INFO  c.level3_1.dao.DAO - Inserted rows 10 
+06.08.2023 01:28:22.678 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 01:28:22.680 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 01:30:50.753 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 01:30:50.771 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:30:50.773 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:30:50.807 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:30:50.807 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:30:50.988 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:30:50.989 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:30:51.437 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:30:51.437 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:30:51.437 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:30:51.477 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:30:51.478 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 01:30:51.478 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 01:30:51.493 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 01:30:51.497 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 01:30:51.501 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 01:30:51.502 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 01:30:51.502 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 01:30:51.512 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 01:30:51.517 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 01:30:51.522 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 01:30:51.523 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:30:51.523 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:30:51.529 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:30:51.532 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:30:51.532 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:30:51.533 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:30:51.537 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:30:51.537 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 01:30:51.619 [main] INFO  com.level3_2.App - Generated 10 DTO
+06.08.2023 01:30:51.620 [main] INFO  com.level3_2.App - RPS of generating is 0.063
+06.08.2023 01:30:51.621 [main] INFO  com.level3_2.App - RPS DTO in second 158.73015873015873
+06.08.2023 01:30:51.630 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 01:30:51.632 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 0.009 
+06.08.2023 01:30:51.632 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 1111.111111111111 
+06.08.2023 01:30:51.632 [main] INFO  c.level3_1.dao.DAO - Inserted rows 10 
+06.08.2023 01:30:51.636 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:30:51.639 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:30:51.640 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 01:30:51.644 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 01:35:10.928 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:35:10.934 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:35:10.972 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:35:10.972 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:35:11.144 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:35:11.145 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:35:11.539 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:35:12.989 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:35:12.989 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:35:12.996 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:35:12.997 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:35:13.083 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:35:13.158 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:35:13.159 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:35:13.166 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:35:13.166 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:35:13.204 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:35:13.326 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:35:13.327 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:35:13.335 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:35:13.336 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:35:13.367 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 01:35:13.368 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 01:35:13.371 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:35:13.372 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:35:13.377 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:35:13.377 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:35:13.380 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:35:13.572 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 01:35:13.573 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 01:35:13.573 [main] DEBUG c.l.QueriesProcessing - Table 1 log message
+06.08.2023 01:36:25.097 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:36:25.104 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:36:25.114 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:36:25.115 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:41:53.158 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:41:53.165 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:41:53.214 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:41:53.214 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:41:53.450 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:41:53.450 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:41:53.936 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:41:55.207 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:41:55.207 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:41:55.217 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:41:55.218 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:41:55.259 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:41:55.324 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:41:55.325 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:41:55.330 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:41:55.330 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:41:55.366 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:41:55.492 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:41:55.493 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:41:55.500 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:41:55.500 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:41:55.513 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 01:41:55.514 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 01:41:55.517 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:41:55.518 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:41:55.523 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:41:55.523 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:41:55.526 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:41:55.737 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 01:41:55.737 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 01:41:55.737 [main] DEBUG c.l.QueriesProcessing - Table 1 log message
+06.08.2023 01:47:26.675 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:26.682 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:26.741 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:47:26.742 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:47:27.036 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:27.037 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:27.320 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:47:28.960 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:28.960 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:28.971 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:28.972 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:29.045 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:47:29.145 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:29.145 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:29.155 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:29.155 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:29.220 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:47:29.427 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:47:29.428 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:47:29.445 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:47:29.447 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:47:29.473 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 01:47:29.473 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 01:47:29.478 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:29.478 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:29.487 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:47:29.488 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:47:29.492 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:47:29.821 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 01:47:29.823 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 01:47:29.824 [main] DEBUG c.l.QueriesProcessing - Table 1 log message
+06.08.2023 01:47:54.710 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 01:47:54.717 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:54.719 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:54.761 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 01:47:54.762 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 01:47:54.994 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:54.995 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:55.315 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:47:55.317 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 01:47:55.317 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 01:47:55.356 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 01:47:55.357 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 01:47:55.358 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 01:47:55.374 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 01:47:55.377 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 01:47:55.382 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 01:47:55.387 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 01:47:55.388 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 01:47:55.397 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 01:47:55.401 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 01:47:55.408 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 01:47:55.409 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 01:47:55.409 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 01:47:55.416 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 01:47:55.419 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:47:55.419 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 01:47:55.420 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 01:47:55.423 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 01:47:55.424 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 01:47:55.490 [main] INFO  com.level3_2.App - Generated 10 DTO
+06.08.2023 01:47:55.490 [main] INFO  com.level3_2.App - RPS of generating is 0.052
+06.08.2023 01:47:55.491 [main] INFO  com.level3_2.App - RPS DTO in second 192.30769230769232
+06.08.2023 01:47:55.500 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 01:47:55.502 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 0.008 
+06.08.2023 01:47:55.502 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 1250.0 
+06.08.2023 01:47:55.502 [main] INFO  c.level3_1.dao.DAO - Inserted rows 10 
+06.08.2023 01:47:55.505 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:47:55.508 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 01:47:55.508 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 01:47:55.512 [main] INFO  c.level3_1.dao.DAO - The largest number of products (1) of the Food type is in the store at the address Київ, вул. Берковецька, 6-В
+06.08.2023 01:47:55.513 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:26:52.495 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:26:52.510 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:26:52.528 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:26:52.618 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:26:52.618 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:26:52.629 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:26:52.629 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:26:52.728 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:26:52.732 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:26:52.999 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:26:53.007 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:26:54.015 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:26:54.015 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:26:55.104 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:26:55.556 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:26:55.556 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:26:55.575 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:26:55.575 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:26:55.802 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:26:56.120 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:26:56.120 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:26:56.131 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:26:56.135 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:26:56.314 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:26:56.355 [main] DEBUG c.l.FileProcessing - File test.csv was found
+06.08.2023 11:26:56.355 [main] DEBUG c.l.FileProcessing - Data from the test.csv file was recieved
+06.08.2023 11:26:56.363 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:26:56.363 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:26:57.048 [main] DEBUG c.l.FileProcessing - File test2.sql was found
+06.08.2023 11:26:57.054 [main] DEBUG c.l.FileProcessing - Data from the test2.sql file was recieved
+06.08.2023 11:26:57.054 [main] DEBUG c.l.QueriesProcessing - Table 1 log message
+06.08.2023 11:28:57.803 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:28:57.810 [main] ERROR c.l.DataProcessing - You need to input product type. Now type is Food
+06.08.2023 11:28:57.824 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:28:57.828 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:28:57.929 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:28:57.931 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:28:58.239 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:28:58.240 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:28:58.927 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:28:58.929 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:28:58.930 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:28:58.999 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:28:59.001 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:28:59.002 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:28:59.045 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:28:59.056 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:28:59.066 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:28:59.068 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:28:59.069 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:28:59.111 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:28:59.122 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:28:59.143 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:28:59.148 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:28:59.151 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:28:59.175 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:28:59.183 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:28:59.187 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:28:59.188 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:28:59.210 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:28:59.212 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:29:01.920 [main] INFO  com.level3_2.App - Generated 1000000 DTO
+06.08.2023 11:29:01.921 [main] INFO  com.level3_2.App - RPS of generating is 2.655
+06.08.2023 11:29:01.923 [main] INFO  com.level3_2.App - RPS DTO in second 376647.83427495294
+06.08.2023 11:29:17.550 [main] DEBUG c.level3_1.dao.DAO - 200000 batches inserted
+06.08.2023 11:29:33.142 [main] DEBUG c.level3_1.dao.DAO - 400000 batches inserted
+06.08.2023 11:29:48.528 [main] DEBUG c.level3_1.dao.DAO - 600000 batches inserted
+06.08.2023 11:30:04.124 [main] DEBUG c.level3_1.dao.DAO - 800000 batches inserted
+06.08.2023 11:30:19.767 [main] DEBUG c.level3_1.dao.DAO - 1000000 batches inserted
+06.08.2023 11:30:19.768 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:30:19.770 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 77.843 
+06.08.2023 11:30:19.771 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 12846.370258083578 
+06.08.2023 11:30:19.771 [main] INFO  c.level3_1.dao.DAO - Inserted rows 1000000 
+06.08.2023 11:30:20.933 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:30:22.134 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:30:22.145 [main] INFO  c.level3_1.dao.DAO - Row found for 11.0 seconds
+06.08.2023 11:30:22.332 [main] INFO  c.level3_1.dao.DAO - The largest number of products (3469) of the Food type is in the store at the address ????, ???. ???????????, 6-?
+06.08.2023 11:30:22.334 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:32:13.302 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:32:13.357 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:32:13.360 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:32:13.434 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:32:13.434 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:32:13.827 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:32:13.827 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:32:14.681 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:32:14.682 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:32:14.683 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:32:14.767 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:32:14.770 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:32:14.771 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:32:14.829 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:32:14.837 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:32:14.846 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:32:14.848 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:32:14.849 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:32:14.867 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:32:14.876 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:32:14.888 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:32:14.889 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:32:14.890 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:32:14.920 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:32:14.926 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:32:14.927 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:32:14.929 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:32:14.937 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:32:14.938 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:32:15.661 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:32:15.662 [main] INFO  com.level3_2.App - RPS of generating is 0.689
+06.08.2023 11:32:15.666 [main] INFO  com.level3_2.App - RPS DTO in second 145137.8809869376
+06.08.2023 11:32:22.767 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:32:22.773 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 7.101 
+06.08.2023 11:32:22.773 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 14082.52358822701 
+06.08.2023 11:32:22.773 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:32:22.898 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:32:23.023 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:32:23.027 [main] INFO  c.level3_1.dao.DAO - Row found for 3.0 seconds
+06.08.2023 11:32:23.038 [main] INFO  c.level3_1.dao.DAO - The largest number of products (362) of the Food type is in the store at the address Київ, вул. Полярна, 20-Д
+06.08.2023 11:32:23.039 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:32:44.091 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:32:44.119 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:32:44.122 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:32:44.200 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:32:44.200 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:32:44.528 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:32:44.529 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:32:45.320 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:32:45.321 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:32:45.322 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:32:45.400 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:32:45.401 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:32:45.401 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:32:45.433 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:32:45.440 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:32:45.448 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:32:45.449 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:32:45.450 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:32:45.465 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:32:45.473 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:32:45.483 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:32:45.484 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:32:45.485 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:32:45.507 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:32:45.514 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:32:45.515 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:32:45.515 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:32:45.522 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:32:45.522 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:32:46.190 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:32:46.190 [main] INFO  com.level3_2.App - RPS of generating is 0.641
+06.08.2023 11:32:46.192 [main] INFO  com.level3_2.App - RPS DTO in second 156006.24024960998
+06.08.2023 11:32:53.477 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:32:53.482 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 7.284 
+06.08.2023 11:32:53.482 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 13728.720483250961 
+06.08.2023 11:32:53.482 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:32:53.483 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 11:32:53.517 [main] INFO  c.level3_1.dao.DAO - The largest number of products (374) of the Food type is in the store at the address Київ, пр-т Степана Бандери, 11-А
+06.08.2023 11:32:53.518 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:35:12.071 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:35:12.097 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:35:12.100 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:35:12.166 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:35:12.167 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:35:12.521 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:35:12.522 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:35:13.325 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:35:13.326 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:35:13.326 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:35:13.423 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:35:13.424 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:35:13.425 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:35:13.458 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:35:13.464 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:35:13.471 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:35:13.472 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:35:13.473 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:35:13.488 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:35:13.506 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:35:13.520 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:35:13.521 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:35:13.523 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:35:13.545 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:35:13.551 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:35:13.553 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:35:13.553 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:35:13.562 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:35:13.574 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:35:13.575 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:35:14.327 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:35:14.328 [main] INFO  com.level3_2.App - RPS of generating is 0.718
+06.08.2023 11:35:14.329 [main] INFO  com.level3_2.App - RPS DTO in second 139275.7660167131
+06.08.2023 11:35:22.191 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:35:22.196 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 7.861 
+06.08.2023 11:35:22.197 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 12721.027859051012 
+06.08.2023 11:35:22.197 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:35:22.331 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:35:22.479 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:35:22.481 [main] INFO  c.level3_1.dao.DAO - Row found for 1.0 seconds
+06.08.2023 11:35:22.495 [main] INFO  c.level3_1.dao.DAO - The largest number of products (364) of the Food type is in the store at the address Київ, пр-т Правди, 47
+06.08.2023 11:35:22.496 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:36:48.783 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:36:48.830 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:36:48.834 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:36:48.901 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:36:48.901 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:36:49.247 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:36:49.247 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:36:50.053 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:36:50.054 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:36:50.054 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:36:50.123 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:36:50.124 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:36:50.125 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:36:50.156 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:36:50.163 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:36:50.171 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:36:50.172 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:36:50.172 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:36:50.189 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:36:50.198 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:36:50.212 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:36:50.216 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:36:50.217 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:36:50.220 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:36:50.241 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:36:50.247 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:36:50.248 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:36:50.249 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:36:50.260 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:36:50.260 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:36:51.000 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:36:51.000 [main] INFO  com.level3_2.App - RPS of generating is 0.7
+06.08.2023 11:36:51.003 [main] INFO  com.level3_2.App - RPS DTO in second 142857.14285714287
+06.08.2023 11:36:51.008 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:36:51.012 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:36:57.504 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:36:57.509 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 6.491 
+06.08.2023 11:36:57.510 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 15405.946695424434 
+06.08.2023 11:36:57.510 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:36:57.511 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 11:36:57.523 [main] INFO  c.level3_1.dao.DAO - The largest number of products (358) of the Food type is in the store at the address Київ, Дніпровська наб., 13-В
+06.08.2023 11:36:57.523 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:38:24.415 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:38:24.436 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:38:24.440 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:38:24.516 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:38:24.517 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:38:24.840 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:38:24.841 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:38:25.652 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:38:25.653 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:38:25.653 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:38:25.723 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:38:25.724 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:38:25.725 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:38:25.768 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:38:25.775 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:38:25.782 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:38:25.782 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:38:25.783 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:38:25.799 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:38:25.806 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:38:25.815 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:38:25.820 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:25.821 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:38:25.822 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:38:25.835 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:38:25.838 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:25.840 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:38:25.841 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:38:25.853 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:38:25.860 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:25.864 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:25.864 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:38:26.611 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:38:26.612 [main] INFO  com.level3_2.App - RPS of generating is 0.714
+06.08.2023 11:38:26.614 [main] INFO  com.level3_2.App - RPS DTO in second 140056.0224089636
+06.08.2023 11:38:33.640 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:38:33.646 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 7.025 
+06.08.2023 11:38:33.647 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 14234.875444839858 
+06.08.2023 11:38:33.647 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:38:33.647 [main] INFO  c.level3_1.dao.DAO - Row found for 0.0 seconds
+06.08.2023 11:38:33.659 [main] INFO  c.level3_1.dao.DAO - The largest number of products (373) of the Food type is in the store at the address Київ, пр-т Степана Бандери, 11-А
+06.08.2023 11:38:33.660 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:38:47.982 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:38:47.992 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:38:47.996 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:38:48.058 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:38:48.058 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:38:48.418 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:38:48.419 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:38:49.201 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:38:49.202 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:38:49.202 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:38:49.282 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:38:49.284 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:38:49.284 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:38:49.314 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:38:49.321 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:38:49.327 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:38:49.328 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:38:49.329 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:38:49.344 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:38:49.352 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:38:49.364 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:38:49.369 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:49.370 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:38:49.370 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:38:49.381 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:38:49.386 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:49.387 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:38:49.387 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:38:49.398 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:38:49.399 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:38:50.062 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:38:50.063 [main] INFO  com.level3_2.App - RPS of generating is 0.619
+06.08.2023 11:38:50.066 [main] INFO  com.level3_2.App - RPS DTO in second 161550.88852988693
+06.08.2023 11:38:55.633 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:38:55.639 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 5.567 
+06.08.2023 11:38:55.639 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 17962.996227770793 
+06.08.2023 11:38:55.640 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:38:55.757 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:55.874 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:38:55.877 [main] INFO  c.level3_1.dao.DAO - Row found for 2.0 seconds
+06.08.2023 11:38:55.887 [main] INFO  c.level3_1.dao.DAO - The largest number of products (356) of the Food type is in the store at the address Київ, Кільцева дорога, 1-Б
+06.08.2023 11:38:55.888 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:40:18.446 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:40:18.474 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:40:18.478 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:40:18.585 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:40:18.585 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:40:19.014 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:40:19.015 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:40:19.932 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:40:19.933 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:40:19.934 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:40:20.009 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:40:20.010 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:40:20.010 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:40:20.066 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:40:20.073 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:40:20.078 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:40:20.079 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:40:20.080 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:40:20.094 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:40:20.100 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:40:20.108 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:40:20.111 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:40:20.112 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:40:20.114 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:40:20.126 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:40:20.129 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:40:20.130 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:40:20.131 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:40:20.140 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:40:20.141 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:40:20.958 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:40:20.959 [main] INFO  com.level3_2.App - RPS of generating is 0.784
+06.08.2023 11:40:20.961 [main] INFO  com.level3_2.App - RPS DTO in second 127551.02040816325
+06.08.2023 11:40:27.028 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:40:27.041 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:40:27.046 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:40:27.142 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:40:27.143 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:40:27.512 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:40:27.513 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:40:28.374 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:40:28.375 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:40:28.376 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:40:28.465 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:40:28.466 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:40:28.467 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:40:28.498 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:40:28.507 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:40:28.519 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:40:28.520 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:40:28.521 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:40:28.539 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:40:28.548 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:40:28.572 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:40:28.577 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:40:28.578 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:40:28.580 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:40:28.597 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:40:28.602 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:40:28.604 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:40:28.604 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:40:28.617 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:40:28.618 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:40:29.447 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:40:29.447 [main] INFO  com.level3_2.App - RPS of generating is 0.794
+06.08.2023 11:40:29.448 [main] INFO  com.level3_2.App - RPS DTO in second 125944.58438287153
+06.08.2023 11:40:32.517 [main] DEBUG c.level3_1.dao.DAO - 50000 batches inserted
+06.08.2023 11:40:35.423 [main] DEBUG c.level3_1.dao.DAO - 100000 batches inserted
+06.08.2023 11:40:35.424 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:40:35.426 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 5.975 
+06.08.2023 11:40:35.427 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 16736.401673640168 
+06.08.2023 11:40:35.427 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:40:35.570 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:40:35.706 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:40:35.709 [main] INFO  c.level3_1.dao.DAO - Row found for 2.0 seconds
+06.08.2023 11:40:35.723 [main] INFO  c.level3_1.dao.DAO - The largest number of products (351) of the Food type is in the store at the address Київ, вул. Берковецька, 6-В
+06.08.2023 11:40:35.724 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 11:47:40.149 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 11:47:40.160 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:47:40.163 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:47:40.223 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 11:47:40.224 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 11:47:40.621 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:47:40.621 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:47:41.149 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:47:41.150 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 11:47:41.150 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 11:47:41.237 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 11:47:41.237 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 11:47:41.238 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 11:47:41.282 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 11:47:41.290 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 11:47:41.300 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 11:47:41.301 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 11:47:41.302 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 11:47:41.318 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 11:47:41.327 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 11:47:41.341 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 11:47:41.346 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:47:41.348 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 11:47:41.350 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 11:47:41.366 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 11:47:41.371 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:47:41.372 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 11:47:41.373 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 11:47:41.384 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 11:47:41.384 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 11:47:42.125 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 11:47:42.125 [main] INFO  com.level3_2.App - RPS of generating is 0.704
+06.08.2023 11:47:42.128 [main] INFO  com.level3_2.App - RPS DTO in second 142045.45454545456
+06.08.2023 11:47:45.216 [main] DEBUG c.level3_1.dao.DAO - 50000 batches inserted
+06.08.2023 11:47:48.771 [main] DEBUG c.level3_1.dao.DAO - 100000 batches inserted
+06.08.2023 11:47:48.771 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 11:47:48.778 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 6.643 
+06.08.2023 11:47:48.778 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 15053.439710973958 
+06.08.2023 11:47:48.778 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 11:47:48.931 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:47:49.098 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 11:47:49.100 [main] INFO  c.level3_1.dao.DAO - Row found for 1.0 seconds
+06.08.2023 11:47:49.115 [main] INFO  c.level3_1.dao.DAO - The largest number of products (342) of the Food type is in the store at the address Київ, вул. Хрещатик, 38
+06.08.2023 11:47:49.116 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 20:20:52.938 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 20:20:52.978 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:20:52.981 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:20:53.061 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 20:20:53.061 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 20:20:53.407 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:20:53.408 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:20:54.275 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 20:20:54.276 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:20:54.277 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:20:54.351 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 20:20:54.360 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 20:20:54.361 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 20:20:54.411 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 20:20:54.421 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 20:20:54.430 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 20:20:54.442 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 20:20:54.442 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 20:20:54.474 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 20:20:54.482 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 20:20:54.495 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 20:20:54.503 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:20:54.515 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 20:20:54.517 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 20:20:54.542 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 20:20:54.547 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:20:54.556 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 20:20:54.557 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 20:20:54.563 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 20:20:54.564 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 20:20:55.224 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 20:20:55.224 [main] INFO  com.level3_2.App - RPS of generating is 0.617
+06.08.2023 20:20:55.226 [main] INFO  com.level3_2.App - RPS DTO in second 162074.55429497568
+06.08.2023 20:20:57.817 [main] DEBUG c.level3_1.dao.DAO - 50000 batches inserted
+06.08.2023 20:21:00.520 [main] DEBUG c.level3_1.dao.DAO - 100000 batches inserted
+06.08.2023 20:21:00.521 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 20:21:00.523 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 5.294 
+06.08.2023 20:21:00.523 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 18889.308651303363 
+06.08.2023 20:21:00.523 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 20:21:00.665 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:21:00.788 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:21:00.789 [main] INFO  c.level3_1.dao.DAO - Row found for 1.0 seconds
+06.08.2023 20:21:00.807 [main] INFO  c.level3_1.dao.DAO - The largest number of products (359) of the Food type is in the store at the address Київ, вул. Полярна, 20-Д
+06.08.2023 20:21:00.807 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 20:22:01.716 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 20:22:01.741 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:22:01.749 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:22:01.950 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 20:22:01.951 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 20:22:02.706 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:22:02.707 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:22:03.971 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 20:22:03.972 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:22:03.972 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:22:04.047 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 20:22:04.048 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 20:22:04.050 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 20:22:04.100 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 20:22:04.108 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 20:22:04.116 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 20:22:04.117 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 20:22:04.117 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 20:22:04.132 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 20:22:04.142 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 20:22:04.152 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 20:22:04.157 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:04.157 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 20:22:04.160 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 20:22:04.177 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 20:22:04.182 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:04.184 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 20:22:04.184 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 20:22:04.200 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 20:22:04.200 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 20:22:05.180 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 20:22:05.180 [main] INFO  com.level3_2.App - RPS of generating is 0.897
+06.08.2023 20:22:05.183 [main] INFO  com.level3_2.App - RPS DTO in second 111482.72017837234
+06.08.2023 20:22:08.268 [main] DEBUG c.level3_1.dao.DAO - 50000 batches inserted
+06.08.2023 20:22:11.125 [main] DEBUG c.level3_1.dao.DAO - 100000 batches inserted
+06.08.2023 20:22:11.126 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 20:22:11.130 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 5.942 
+06.08.2023 20:22:11.130 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 16829.350387075057 
+06.08.2023 20:22:11.131 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 20:22:11.257 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:11.383 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:11.386 [main] INFO  c.level3_1.dao.DAO - Row found for 1.0 seconds
+06.08.2023 20:22:11.397 [main] INFO  c.level3_1.dao.DAO - The largest number of products (358) of the Food type is in the store at the address с. П. Борщагівка, вул. Кришталева, 6
+06.08.2023 20:22:11.399 [main] INFO  com.level3_2.App - Program finished
+06.08.2023 20:22:46.545 [main] DEBUG com.level3_2.App - Start program
+06.08.2023 20:22:46.560 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:22:46.564 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:22:46.642 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+06.08.2023 20:22:46.643 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+06.08.2023 20:22:46.986 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:22:46.986 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:22:47.779 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 20:22:47.780 [main] DEBUG c.l.FileProcessing - File config.properties was found
+06.08.2023 20:22:47.781 [main] DEBUG c.l.FileProcessing - Properties were loaded
+06.08.2023 20:22:47.848 [main] DEBUG c.l.ConnectionCreator - Connection created
+06.08.2023 20:22:47.850 [main] DEBUG c.l.FileProcessing - File dropTables.sql was found
+06.08.2023 20:22:47.851 [main] DEBUG c.l.FileProcessing - Data from the dropTables.sql file was recieved
+06.08.2023 20:22:47.885 [main] DEBUG c.l.QueriesProcessing - Table 1 dropped
+06.08.2023 20:22:47.892 [main] DEBUG c.l.QueriesProcessing - Table 2 dropped
+06.08.2023 20:22:47.899 [main] DEBUG c.l.QueriesProcessing - Table 3 dropped
+06.08.2023 20:22:47.900 [main] DEBUG c.l.FileProcessing - File createTables.sql was found
+06.08.2023 20:22:47.901 [main] DEBUG c.l.FileProcessing - Data from the createTables.sql file was recieved
+06.08.2023 20:22:47.915 [main] DEBUG c.l.QueriesProcessing - Table 1 created
+06.08.2023 20:22:47.933 [main] DEBUG c.l.QueriesProcessing - Table 2 created
+06.08.2023 20:22:47.946 [main] DEBUG c.l.QueriesProcessing - Table 3 created
+06.08.2023 20:22:47.949 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:47.950 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+06.08.2023 20:22:47.951 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+06.08.2023 20:22:47.961 [main] DEBUG c.level3_1.dao.DAO - Data into Shop table inserted
+06.08.2023 20:22:47.964 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:47.965 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+06.08.2023 20:22:47.967 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+06.08.2023 20:22:47.975 [main] DEBUG c.level3_1.dao.DAO - Data into ProductType table inserted
+06.08.2023 20:22:47.975 [main] DEBUG com.level3_2.App - Generating products list
+06.08.2023 20:22:48.734 [main] INFO  com.level3_2.App - Generated 100000 DTO
+06.08.2023 20:22:48.734 [main] INFO  com.level3_2.App - RPS of generating is 0.728
+06.08.2023 20:22:48.736 [main] INFO  com.level3_2.App - RPS DTO in second 137362.63736263735
+06.08.2023 20:22:51.494 [main] DEBUG c.level3_1.dao.DAO - 50000 batches inserted
+06.08.2023 20:22:54.512 [main] DEBUG c.level3_1.dao.DAO - 100000 batches inserted
+06.08.2023 20:22:54.512 [main] DEBUG c.level3_1.dao.DAO - Data into Products table inserted
+06.08.2023 20:22:54.517 [main] INFO  c.level3_1.dao.DAO - Inserted RPS is 5.775 
+06.08.2023 20:22:54.517 [main] INFO  c.level3_1.dao.DAO - Inserted RPS rows in second 17316.017316017314 
+06.08.2023 20:22:54.517 [main] INFO  c.level3_1.dao.DAO - Inserted rows 100000 
+06.08.2023 20:22:54.656 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:54.806 [main] DEBUG c.l.QueriesProcessing - Index created
+06.08.2023 20:22:54.809 [main] INFO  c.level3_1.dao.DAO - Row found for 1.0 seconds
+06.08.2023 20:22:54.820 [main] INFO  c.level3_1.dao.DAO - The largest number of products (363) of the Food type is in the store at the address Київ, вул. Братиславська, 11
+06.08.2023 20:22:54.820 [main] INFO  com.level3_2.App - Program finished
