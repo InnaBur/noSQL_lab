@@ -1,7 +1,7 @@
 package com.level3_2.dao;
 
 import com.level3_2.DataProcessing;
-import com.level3_2.dto.DTOGenerator;
+import com.level3_2.dto.DocumentGenerator;
 import com.level3_2.dto.ProductDto;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
@@ -10,24 +10,17 @@ import org.bson.Document;
 import org.bson.types.ObjectId;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.PreparedStatement;
-import java.sql.SQLException;
 import java.util.ArrayList;
-import java.util.LinkedList;
 import java.util.List;
 
 public class ProductsDAO implements DAO {
 
     private static final int BATCH_SIZE = 1000;
     private static final int BATCH_SIZE_FOR_LOG = 10000;
-    private static final String SQL_PRODUCTS_INSERT = "INSERT INTO products (product, type_id) VALUES (?, ?)";
-    DTOGenerator dtoGenerator = new DTOGenerator();
+    DocumentGenerator documentGenerator = new DocumentGenerator();
     private final String COLLECTION_PRODUCTS = "products";
-    ProductDto productDto = new ProductDto();
-    private static final String inputtedType = new DataProcessing().readOutputFormat();
-    private static final String INDEX_QUERY = "CREATE INDEX idx_type_id ON products (type_id)";
-//    private static final String INDEX_QUERY2 = "CREATE INDEX idx_type_id ON products (type_id)";
+//    ProductDto productDto = new ProductDto();
+//    private static final String inputtedType = new DataProcessing().readOutputFormat();
 
 
     private void logRPS(double sec, int count) {
@@ -45,7 +38,7 @@ public class ProductsDAO implements DAO {
     @Override
     public void insertDataIntoCollection(MongoDatabase database) throws IOException {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS);
-        List<Document> documents = dtoGenerator.generateDTOlist(database);
+        List<Document> documents = documentGenerator.generateProductsDTOlist(database);
         StopWatch watch = new StopWatch();
         watch.start();
         collection.insertMany(documents);
@@ -71,6 +64,23 @@ public class ProductsDAO implements DAO {
             idList.add(id);
         }
         return idList;
+    }
+
+    @Override
+    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException {
+
+    }
+
+    public List<ProductDto> getProductsIntoList(MongoDatabase database) {
+        MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS);
+
+        List<ProductDto> list = new ArrayList<>();
+        for (Document document : collection.find()) {
+            String prod = document.getString("product");
+            ObjectId type = document.getObjectId("type_id");
+            list.add(new ProductDto(prod, type));
+        }
+        return list;
     }
 }
 

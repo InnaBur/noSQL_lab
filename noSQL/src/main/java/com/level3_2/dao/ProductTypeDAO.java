@@ -1,5 +1,6 @@
 package com.level3_2.dao;
 
+import com.level3_2.dto.ProductDto;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
@@ -49,5 +50,10 @@ public class ProductTypeDAO implements DAO {
             idList.add(id);
         }
         return idList;
+    }
+
+    @Override
+    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException {
+
     }
 }

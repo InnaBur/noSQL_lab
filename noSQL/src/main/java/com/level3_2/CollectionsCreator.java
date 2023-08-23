@@ -18,13 +18,17 @@ public class CollectionsCreator {
     private final String COLLECTION_SHOP = "shop";
     private final String COLLECTION_PRODUCT_TYPE = "type";
     private final String COLLECTION_PRODUCTS = "products";
-    private final String FILE_SHOPS =  "shop_address.csv";
-    private final String FILE_PRODUCTS_TYPE =  "product_type.csv";
+    private final String COLLECTION_PRODUCTS_IN_SHOPS = "ProductsInShops";
+    private final String FILE_SHOPS = "shop_address.csv";
+    private final String FILE_PRODUCTS_TYPE = "product_type.csv";
+
     public void createCollectionsReference(MongoDatabase database) throws IOException {
-createCollection(database, COLLECTION_SHOP);
+        createCollection(database, COLLECTION_SHOP);
         createCollection(database, COLLECTION_PRODUCT_TYPE);
         createCollection(database, COLLECTION_PRODUCTS);
+        createCollection(database, COLLECTION_PRODUCTS_IN_SHOPS);
     }
+
     public void createCollection(MongoDatabase database, String collectionName) throws IOException {
         if (database.listCollectionNames().into(new ArrayList<>()).contains(collectionName)) {
             database.getCollection(collectionName).drop();
@@ -36,7 +40,6 @@ createCollection(database, COLLECTION_SHOP);
 //       insertDataIntoCollection(filename, collection);
 
     }
-
 
 
 }

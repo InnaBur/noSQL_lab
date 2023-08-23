@@ -2,6 +2,7 @@ package com.level3_2.dao;
 
 import com.level3_2.FileProcessing;
 import com.level3_2.QueriesProcessing;
+import com.level3_2.dto.ProductDto;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
@@ -22,4 +23,5 @@ public interface DAO {
     void insertDataIntoCollection(MongoDatabase database) throws IOException;
     Document createDocument(String value);
     List<ObjectId> getIdIntoList(MongoDatabase database);
+    void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException;
 }

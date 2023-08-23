@@ -1,5 +1,6 @@
 package com.level3_2.dao;
 
+import com.level3_2.dto.ProductDto;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
@@ -48,5 +49,21 @@ public class ShopDAO implements DAO {
             idList.add(id);
         }
         return idList;
+    }
+
+    @Override
+    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException {
+
+    }
+
+    public List<String> getShopIntoList(MongoDatabase database) {
+        MongoCollection<Document> collection = database.getCollection(COLLECTION_SHOP);
+
+        List<String> list = new ArrayList<>();
+        for (Document document : collection.find()) {
+            String shop = document.getString("address");
+            list.add(shop);
+        }
+        return list;
     }
 }

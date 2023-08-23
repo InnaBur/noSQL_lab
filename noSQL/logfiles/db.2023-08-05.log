@@ -527,7 +527,7 @@ org.postgresql.util.PSQLException: FATAL: password authentication failed for use
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
 	at com.level3_2.ConnectionCreator.createConnection(ConnectionCreator.java:29)
-	at com.level3_2.dto.DTOGenerator.<init>(DTOGenerator.java:23)
+	at com.level3_2.dto.DocumentGenerator.<init>(DTOGenerator.java:23)
 	at com.level3_2.dao.ProductsDAO.<init>(ProductsDAO.java:19)
 	at com.level3_2.App.main(App.java:22)
 05.08.2023 14:04:09.591 [main] DEBUG com.level3_2.App - Start program
@@ -547,7 +547,7 @@ org.postgresql.util.PSQLException: The connection attempt failed.
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
 	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
 	at com.level3_2.ConnectionCreator.createConnection(ConnectionCreator.java:29)
-	at com.level3_2.dto.DTOGenerator.<init>(DTOGenerator.java:23)
+	at com.level3_2.dto.DocumentGenerator.<init>(DTOGenerator.java:23)
 	at com.level3_2.dao.ProductsDAO.<init>(ProductsDAO.java:19)
 	at com.level3_2.App.main(App.java:22)
 Caused by: java.net.UnknownHostException: postgres.cgknngoatzj8.eu-central-1.rds.amazonaws.com
