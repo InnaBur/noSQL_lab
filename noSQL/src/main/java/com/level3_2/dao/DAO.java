@@ -18,10 +18,9 @@ public interface DAO {
 
     Logger logger = LoggerFactory.getLogger(DAO.class);
     FileProcessing fileProcessing = new FileProcessing();
-    QueriesProcessing queriesProcessing = new QueriesProcessing();
 
     void insertDataIntoCollection(MongoDatabase database) throws IOException;
     Document createDocument(String value);
     List<ObjectId> getIdIntoList(MongoDatabase database);
-    void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException;
+
 }

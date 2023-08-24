@@ -66,12 +66,7 @@ public class ProductsDAO implements DAO {
         return idList;
     }
 
-    @Override
-    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException {
-
-    }
-
-    public List<ProductDto> getProductsIntoList(MongoDatabase database) {
+     public List<ProductDto> getProductsIntoList(MongoDatabase database) {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS);
 
         List<ProductDto> list = new ArrayList<>();

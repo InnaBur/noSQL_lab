@@ -7,7 +7,6 @@ import com.level3_2.dao.ShopDAO;
 import com.level3_2.dto.ProductDto;
 import com.mongodb.MongoException;
 import com.mongodb.client.*;
-import com.mongodb.client.model.*;
 import org.bson.Document;
 
 import org.bson.conversions.Bson;
@@ -49,17 +48,14 @@ public class App {
 
             productsDAO.insertDataIntoCollection(database);
             List<ProductDto> productDtos = productsDAO.getProductsIntoList(database);
-            System.out.println("LIST " + productDtos.get(0 ) + "Size " + productDtos.size());
+            System.out.println("LIST " + productDtos.get(0) + "Size " + productDtos.size());
             List<String> shops = shopDAO.getShopIntoList(database);
             System.out.println("SHOPS " + shops.get(0) + shops.size());
             ProductsInShopsDAO productsInShopsDAO = new ProductsInShopsDAO();
             productsInShopsDAO.insertDataIntoCollection2(database, productDtos, shops);
 
-
-            MongoCollection<Document> productsCollection = database.getCollection("products");
-            MongoCollection<Document> shopCollection = database.getCollection("shop");
             MongoCollection<Document> productTypeCollection = database.getCollection("type");
-            MongoCollection<Document> generalTableCollection = database.getCollection("ProductsInShops");
+            MongoCollection<Document> productsInShopsCollection = database.getCollection("ProductsInShops");
 //
             String typeFromConsole = "Food";
             ObjectId prodTypeId = productTypeCollection.find(eq("type", typeFromConsole)).first().getObjectId("_id");
@@ -71,37 +67,11 @@ public class App {
                     limit(10)
             );
 
-            AggregateIterable<Document> result = generalTableCollection.aggregate(pipeline);
+            AggregateIterable<Document> result = productsInShopsCollection.aggregate(pipeline);
 
             for (Document doc : result) {
                 System.out.println(doc);
-                // You can access specific fields using doc.get("field_name")
             }
-//
-//            ObjectId prodTypeId = productTypeCollection.find(eq("type", typeFromConsole)).first().getObjectId("_id");
-//            System.out.println("PRODTYPEID " + prodTypeId);
-//
-//
-//            List<Bson> pipeline = Arrays.asList(
-//                    match(eq("product_id", prodTypeId)));
-//            List<Bson> pipeline1 = Arrays.asList(
-//            lookup("products", "product_id", "_id", "productInfo"),
-//                    unwind("$productInfo"),
-//                    match(eq("productInfo.type_id", prodTypeId)),
-//                    group("$shop_id", sum("productCount", "$product_amount")),
-//                    sort(descending("productCount")),
-//                    limit(1)
-//            );
-//
-//            System.out.println("BSON " + pipeline1);
-//
-//            AggregateIterable<Document> result = generalTableCollection.aggregate(pipeline1);
-//
-//            for (Document doc : result) {
-//                System.out.println("RES " + doc);
-//                // You can access specific fields using doc.get("field_name")
-//            }
-
         } catch (MongoException e) {
             logger.error("MongoDB was not created");
             System.exit(1);

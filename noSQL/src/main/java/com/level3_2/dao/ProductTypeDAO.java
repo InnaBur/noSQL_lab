@@ -52,8 +52,5 @@ public class ProductTypeDAO implements DAO {
         return idList;
     }
 
-    @Override
-    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException {
 
-    }
 }

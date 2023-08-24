@@ -51,12 +51,7 @@ public class ShopDAO implements DAO {
         return idList;
     }
 
-    @Override
-    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos) throws IOException {
-
-    }
-
-    public List<String> getShopIntoList(MongoDatabase database) {
+       public List<String> getShopIntoList(MongoDatabase database) {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_SHOP);
 
         List<String> list = new ArrayList<>();

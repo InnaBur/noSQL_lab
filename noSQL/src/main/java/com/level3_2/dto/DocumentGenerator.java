@@ -43,16 +43,9 @@ public class DocumentGenerator {
                 .map(ProductDto::toDocument)
                 .collect(Collectors.toCollection(LinkedList::new));
 
-//        List<Document> listDTO = Stream.generate(() -> new ProductDto
-//                        (generateProductName(), generateRandomTypeId(typeIdList)))
-//                .filter(this::isValid)
-//                .limit(50000)
-//                .map(ProductDto::toDocument)
-//                .collect(Collectors.toCollection(LinkedList::new));
         watch.stop();
         double seconds = watch.getTime() / 1000.0;
-//        logRPS(listDTO, seconds);
-
+        logRPS(listDTO, seconds);
         return listDTO;
     }
 
@@ -61,7 +54,7 @@ public class DocumentGenerator {
         logger.debug("Generating Store products list");
 
         List<String> shops = shopDAO.getShopIntoList(database);
-        for (String str: shops) {
+        for (String str : shops) {
             System.out.println(str);
         }
         logger.debug("Shops list is got, size is {}", shops.size());
@@ -91,21 +84,11 @@ public class DocumentGenerator {
 
     public Document generateStoreDTO(MongoDatabase database, List<ProductDto> productDtos, List<String> shops) {
 
-//        Document dto = Stream.generate(() -> new ProductsInShopsDTO(
-//                        productDtos.get(random.nextInt(productDtos.size())).getProductName(),
-//                        productDtos.get(random.nextInt(productDtos.size())).getType_id(),
-//                        shops.get(random.nextInt(shops.size())),
-//                        random.nextInt(100)))
-//                .limit(1000)
-//                .map(ProductsInShopsDTO::toDocument)
-//                .collect(Collectors.toCollection(LinkedList::new));
         return new ProductsInShopsDTO(
                 productDtos.get(random.nextInt(productDtos.size())),
-//                productDtos.get(random.nextInt(productDtos.size())).getType_id(),
                 shops.get(random.nextInt(shops.size())),
                 random.nextInt(100)).toDocument();
     }
-
 
 
     private void logRPS(List<Document> listDTO, double seconds) {
