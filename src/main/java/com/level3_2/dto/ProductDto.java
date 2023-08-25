@@ -1,5 +1,6 @@
 package com.level3_2.dto;
 
+import jakarta.validation.constraints.Pattern;
 import jakarta.validation.constraints.Size;
 import org.bson.Document;
 import org.bson.types.ObjectId;
@@ -7,7 +8,7 @@ import org.bson.types.ObjectId;
 public class ProductDto {
 
     @Size(max = 10, message = "Name length must not be longer then 10 symbols")
-//    @Pattern(regexp = "^A?.*a.*", message = "Must be at least one letter 'а'")
+    @Pattern(regexp = "^A?.*a.*", message = "Must be at least one letter 'а'")
     private String productName;
     private ObjectId type_id;
 

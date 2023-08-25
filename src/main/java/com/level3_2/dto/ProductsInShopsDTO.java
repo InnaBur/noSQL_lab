@@ -1,24 +1,21 @@
 package com.level3_2.dto;
 
 import org.bson.Document;
-import org.bson.types.ObjectId;
 
 public class ProductsInShopsDTO {
 
     private ProductDto productDto;
-//    private ObjectId type;
     private String shop;
     private int amount;
 
 
     public ProductsInShopsDTO(ProductDto productDto, String shop, int amount) {
         this.productDto = productDto;
-//      /  this.type = type;
         this.shop = shop;
         this.amount = amount;
     }
 
-       public ProductDto getProductDto() {
+    public ProductDto getProductDto() {
         return productDto;
     }
 

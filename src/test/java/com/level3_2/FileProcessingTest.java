@@ -13,19 +13,11 @@ class FileProcessingTest {
 
     @Test
     void loadPropertiesTest() {
-        String expected = "postgres";
+        String expected = "mongoDB";
         String actual = fileProcessing.loadProperties().getProperty("username");
 
         assertEquals(expected, actual);
     }
 
 
-    @Test
-    void getQueriesFromTheFileTest() throws IOException {
-        List<String> expected = new LinkedList<>();
-        expected.add("Hello");
-        expected.add("World");
-
-        assertEquals(expected, fileProcessing.getDataFromTheFile("test.csv"));
-    }
 }

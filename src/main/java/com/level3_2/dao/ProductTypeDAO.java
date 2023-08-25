@@ -1,15 +1,12 @@
 package com.level3_2.dao;
 
-import com.level3_2.dto.ProductDto;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import org.apache.commons.lang3.time.StopWatch;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -50,6 +47,14 @@ public class ProductTypeDAO implements DAO {
             idList.add(id);
         }
         return idList;
+    }
+
+    @Override
+    public void logRPS(StopWatch watch, int count, String collectionName) {
+        double seconds = watch.getTime() / 1000.0;
+        logger.info("Inserted RPS into {} is {} ", collectionName, seconds);
+        logger.info("Inserted RPS rows in second {} ", count / seconds);
+        logger.info("Inserted rows {} ", count);
     }
 
 

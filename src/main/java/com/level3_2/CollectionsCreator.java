@@ -1,45 +1,33 @@
 package com.level3_2;
 
-import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
-import org.bson.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
 public class CollectionsCreator {
 
     private static final Logger logger = LoggerFactory.getLogger(CollectionsCreator.class);
-    FileProcessing fileProcessing = new FileProcessing();
-    private final String COLLECTION_SHOP = "shop";
-    private final String COLLECTION_PRODUCT_TYPE = "type";
-    private final String COLLECTION_PRODUCTS = "products";
-    private final String COLLECTION_PRODUCTS_IN_SHOPS = "ProductsInShops";
-    private final String FILE_SHOPS = "shop_address.csv";
-    private final String FILE_PRODUCTS_TYPE = "product_type.csv";
 
-    public void createCollectionsReference(MongoDatabase database) throws IOException {
-        createCollection(database, COLLECTION_SHOP);
-        createCollection(database, COLLECTION_PRODUCT_TYPE);
-        createCollection(database, COLLECTION_PRODUCTS);
-        createCollection(database, COLLECTION_PRODUCTS_IN_SHOPS);
+    public void createCollectionsReference(MongoDatabase database) {
+        String collectionShop = "shop";
+        String collectionProductType = "type";
+        String collectionProductsInShops = "ProductsInShops";
+        String collectionProducts = "products";
+
+        createCollection(database, collectionShop);
+        createCollection(database, collectionProductType);
+        createCollection(database, collectionProducts);
+        createCollection(database, collectionProductsInShops);
     }
 
-    public void createCollection(MongoDatabase database, String collectionName) throws IOException {
+    public void createCollection(MongoDatabase database, String collectionName) {
         if (database.listCollectionNames().into(new ArrayList<>()).contains(collectionName)) {
             database.getCollection(collectionName).drop();
             logger.debug("Collection {} dropped", collectionName);
         }
         database.createCollection(collectionName);
         logger.debug("Collection {} created", collectionName);
-
-//       insertDataIntoCollection(filename, collection);
-
     }
-
-
 }

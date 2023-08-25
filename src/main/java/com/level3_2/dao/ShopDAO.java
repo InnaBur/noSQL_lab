@@ -1,15 +1,12 @@
 package com.level3_2.dao;
 
-import com.level3_2.dto.ProductDto;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
+import org.apache.commons.lang3.time.StopWatch;
 import org.bson.Document;
 import org.bson.types.ObjectId;
 
 import java.io.IOException;
-import java.sql.Connection;
-import java.sql.SQLException;
-import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -51,7 +48,12 @@ public class ShopDAO implements DAO {
         return idList;
     }
 
-       public List<String> getShopIntoList(MongoDatabase database) {
+    @Override
+    public void logRPS(StopWatch watch, int count, String dbName) {
+
+    }
+
+    public List<String> getShopIntoList(MongoDatabase database) {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_SHOP);
 
         List<String> list = new ArrayList<>();

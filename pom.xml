@@ -12,6 +12,7 @@
 
     <properties>
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+      <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
       <maven.compiler.source>11</maven.compiler.source>
       <maven.compiler.target>11</maven.compiler.target>
     </properties>
@@ -161,6 +162,7 @@
               </goals>
 
               <configuration>
+                <encoding>UTF-8</encoding>
                 <outputDirectory>${project.build.directory}/</outputDirectory>
                 <resources>
                   <resource>
@@ -183,7 +185,7 @@
             <archive>
               <manifestEntries>
                 <!--              <Class-Path>./conf/ ./log/</Class-Path>-->
-                <Class-Path>conf/ log/ sql/</Class-Path>-->
+                <Class-Path>conf/ log/ files/</Class-Path>-->
                 <!--              <Class-Path>./config.properties </Class-Path>-->
               </manifestEntries>
               <manifest>
@@ -195,11 +197,11 @@
               </manifest>
             </archive>
             <excludes>
-              <exclude>sql/**</exclude>
+              <exclude>resources/**</exclude>
               <exclude>conf/**</exclude>
               <exclude>/logback.xml</exclude>
               <exclude>*.properties</exclude>
-              <exclude>*.sql</exclude>
+<!--              <exclude>*.sql</exclude>-->
               <exclude>*.csv</exclude>
             </excludes>
 

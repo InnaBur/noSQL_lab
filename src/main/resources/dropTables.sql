@@ -1,7 +1,0 @@
-DROP TABLE IF EXISTS generalTable;
-
-DROP TABLE IF EXISTS products;
-
-DROP TABLE IF EXISTS productType;
-
-DROP TABLE IF EXISTS shop;
