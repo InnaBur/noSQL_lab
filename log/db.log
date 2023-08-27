@@ -771,3 +771,22 @@ Caused by: java.security.UnrecoverableKeyException: Password verification failed
 27.08.2023 17:06:21.010 [cluster-ClusterId{value='64eb585b8978ee0ba03703a6', description='null'}-docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] DEBUG o.m.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoClientException: Unable to create default SSLContext}, caused by {java.security.NoSuchAlgorithmException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)}, caused by {java.security.KeyStoreException: problem accessing trust store}, caused by {java.io.IOException: Keystore was tampered with, or password was incorrect}, caused by {java.security.UnrecoverableKeyException: Password verification failed}}]
 27.08.2023 17:06:21.511 [cluster-ClusterId{value='64eb585b8978ee0ba03703a6', description='null'}-docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] DEBUG o.m.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoClientException: Unable to create default SSLContext}, caused by {java.security.NoSuchAlgorithmException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)}, caused by {java.security.KeyStoreException: problem accessing trust store}, caused by {java.io.IOException: Keystore was tampered with, or password was incorrect}, caused by {java.security.UnrecoverableKeyException: Password verification failed}}]
 27.08.2023 17:06:22.011 [cluster-ClusterId{value='64eb585b8978ee0ba03703a6', description='null'}-docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] DEBUG o.m.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoClientException: Unable to create default SSLContext}, caused by {java.security.NoSuchAlgorithmException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)}, caused by {java.security.KeyStoreException: problem accessing trust store}, caused by {java.io.IOException: Keystore was tampered with, or password was incorrect}, caused by {java.security.UnrecoverableKeyException: Password verification failed}}]
+27.08.2023 17:42:13.709 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+27.08.2023 17:42:14.075 [main] DEBUG c.l.FileProcessing - File config.properties was found
+27.08.2023 17:42:14.145 [main] DEBUG c.l.FileProcessing - Properties were loaded
+27.08.2023 17:42:14.329 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+27.08.2023 17:42:14.330 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+27.08.2023 17:42:15.489 [main] DEBUG c.l.FileProcessing - File config.properties was found
+27.08.2023 17:42:15.490 [main] DEBUG c.l.FileProcessing - Properties were loaded
+27.08.2023 17:42:15.552 [main] DEBUG c.l.FileProcessing - File config.properties was found
+27.08.2023 17:42:15.554 [main] DEBUG c.l.FileProcessing - Properties were loaded
+27.08.2023 17:42:15.575 [main] DEBUG c.l.DocumentGenerator - Generating products list
+27.08.2023 17:42:16.897 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+27.08.2023 17:42:16.898 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.315 
+27.08.2023 17:42:16.898 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 7604.5627376425855 
+27.08.2023 17:42:16.904 [main] DEBUG c.l.FileProcessing - File config.properties was found
+27.08.2023 17:42:16.905 [main] DEBUG c.l.FileProcessing - Properties were loaded
+27.08.2023 17:42:16.929 [main] DEBUG c.l.FileProcessing - File config.properties was found
+27.08.2023 17:42:16.934 [main] DEBUG c.l.FileProcessing - Properties were loaded
+27.08.2023 17:42:17.603 [main] DEBUG c.l.FileProcessing - File config.properties was found
+27.08.2023 17:42:17.604 [main] DEBUG c.l.FileProcessing - Properties were loaded

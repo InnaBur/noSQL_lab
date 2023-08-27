@@ -18,7 +18,6 @@ public class ConnectionCreator {
 
         String truststore = "/home/ubuntu/mongo/rds-truststore.jks";
         String truststorePassword = "admin124";
-
         System.setProperty("javax.net.ssl.trustStore", truststore);
         System.setProperty("javax.net.ssl.trustStorePassword", truststorePassword);
 
