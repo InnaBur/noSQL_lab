@@ -32,8 +32,10 @@ public class App {
         ProductsInShopsDAO productsInShopsDAO = new ProductsInShopsDAO(properties);
         CollectionsCreator collectionsCreator = new CollectionsCreator();
 
-        try (MongoClient mongoClient = MongoClients.create(properties.getProperty("url"))) {
-            logger.debug("MongoDB was created");
+//        try (MongoClient mongoClient = MongoClients.create(properties.getProperty("url"))) {
+//            logger.debug("MongoDB was created");
+            try (MongoClient mongoClient = ConnectionCreator.createConnection()) {
+                logger.debug("MongoDB was created");
 
             MongoDatabase database = mongoClient.getDatabase("myMongoDb");
             collectionsCreator.createCollectionsReference(database);
