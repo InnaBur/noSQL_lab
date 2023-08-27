@@ -40,7 +40,7 @@ public class DocumentGenerator {
         return listDTO;
     }
 
-    private List<Document> generateList(int quantityDTO, List<ObjectId> typeIdList) {
+    public List<Document> generateList(int quantityDTO, List<ObjectId> typeIdList) {
         return Stream.generate(() -> new ProductDto
                         (generateProductName(), generateRandomTypeId(typeIdList)))
                 .filter(this::isValid)

@@ -1,5 +1,6 @@
 package com.level3_2.dao;
 
+import com.level3_2.FileProcessing;
 import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoDatabase;
 import org.apache.commons.lang3.time.StopWatch;
@@ -15,6 +16,7 @@ public class ShopDAO implements DAO {
 
     private static final String SHOP_TABLE_DATA = "shop_address.csv";
     private final String COLLECTION_SHOP = "shop";
+    FileProcessing fileProcessing = new FileProcessing();
 
 
     @Override

@@ -1,0 +1,696 @@
+26.08.2023 00:02:56.004 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:02:56.034 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:02:56.240 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:02:56.241 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:02:56.972 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:02:56.973 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:02:57.006 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:02:57.007 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:02:57.024 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:02:57.025 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:02:57.038 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:02:57.038 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:02:57.055 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:02:57.055 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:04:03.145 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:04:03.165 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:04:03.330 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:04:03.331 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:04:03.913 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:04:03.914 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:04:03.949 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:04:03.950 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:04:03.966 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:04:03.967 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:04:03.983 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:04:03.983 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:04:03.999 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:04:04.000 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:07:08.768 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:07:08.787 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:07:08.892 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:07:08.892 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:07:09.399 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:07:09.400 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:07:09.462 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:07:09.477 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:07:09.478 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:07:09.494 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:07:09.494 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:07:09.508 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:07:09.509 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:07:09.522 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:07:09.522 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:08:03.900 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:08:03.919 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:08:04.130 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:08:04.132 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:08:05.040 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:08:05.041 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:08:05.222 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:08:05.223 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:08:05.241 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:08:05.242 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:08:05.258 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:08:05.259 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:08:05.274 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:08:05.275 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:10:48.678 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:10:48.690 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:10:48.878 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:10:48.880 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:10:49.817 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:10:49.818 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:10:49.941 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:10:51.123 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:10:51.124 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.168 
+26.08.2023 00:10:51.126 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 8561.643835616438 
+26.08.2023 00:10:51.147 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:10:51.147 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:10:51.160 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:10:51.161 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:10:51.178 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:10:51.179 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:10:51.188 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:10:51.189 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:02.266 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:02.274 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:02.382 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:12:02.382 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:12:02.920 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:02.920 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:02.994 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:12:04.248 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:12:04.249 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.243 
+26.08.2023 00:12:04.252 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 8045.052292839903 
+26.08.2023 00:12:04.281 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:04.281 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:04.296 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:04.297 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:04.314 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:04.316 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:04.329 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:04.329 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:17.397 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:17.414 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:17.512 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:12:17.512 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:12:17.967 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:17.967 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:18.045 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:12:18.062 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:18.062 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:18.077 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:18.078 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:18.092 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:18.093 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:12:18.104 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:12:18.104 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:13:27.576 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:13:27.591 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:13:27.738 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:13:27.738 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:13:28.233 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:13:28.234 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:13:28.300 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:13:28.314 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:13:28.315 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:13:28.329 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:13:28.329 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:13:28.343 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:13:28.344 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:13:28.357 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:13:28.358 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:12.182 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:12.213 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:12.410 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:14:12.410 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:14:12.875 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:12.876 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:12.943 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:12.944 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:12.958 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:12.959 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:12.973 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:12.973 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:12.985 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:12.986 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:40.486 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:40.496 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:40.601 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:14:40.602 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:14:41.012 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:41.012 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:41.078 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:14:41.093 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:41.094 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:41.109 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:41.109 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:41.124 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:41.125 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:14:41.143 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:14:41.145 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:18:10.309 [main] DEBUG com.level3_2.App - Start program
+26.08.2023 00:18:10.330 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:18:37.640 [main] DEBUG com.level3_2.App - Start program
+26.08.2023 00:18:37.658 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:18:37.662 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:18:37.666 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:18:37.666 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:18:37.736 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:18:37.737 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:18:38.073 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:18:38.074 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:18:38.719 [main] DEBUG com.level3_2.App - MongoDB was created
+26.08.2023 00:18:38.861 [main] DEBUG c.l.CollectionsCreator - Collection shop dropped
+26.08.2023 00:18:38.894 [main] DEBUG c.l.CollectionsCreator - Collection shop created
+26.08.2023 00:18:38.899 [main] DEBUG c.l.CollectionsCreator - Collection type dropped
+26.08.2023 00:18:38.914 [main] DEBUG c.l.CollectionsCreator - Collection type created
+26.08.2023 00:18:38.918 [main] DEBUG c.l.CollectionsCreator - Collection products dropped
+26.08.2023 00:18:38.936 [main] DEBUG c.l.CollectionsCreator - Collection products created
+26.08.2023 00:18:38.943 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops dropped
+26.08.2023 00:18:38.962 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops created
+26.08.2023 00:18:38.963 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 00:18:38.966 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 00:18:39.033 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 00:18:39.034 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+26.08.2023 00:18:39.035 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+26.08.2023 00:18:39.039 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'type' inserted
+26.08.2023 00:18:39.040 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:18:40.073 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:18:40.073 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.016 
+26.08.2023 00:18:40.075 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 9842.51968503937 
+26.08.2023 00:18:40.405 [main] INFO  c.level3_2.dao.DAO - Inserted RPS into products is 0.329 
+26.08.2023 00:18:40.405 [main] INFO  c.level3_2.dao.DAO - Inserted RPS rows in second 30395.1367781155 
+26.08.2023 00:18:40.405 [main] INFO  c.level3_2.dao.DAO - Inserted rows 10000 
+26.08.2023 00:18:40.405 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'products' inserted
+26.08.2023 00:18:40.573 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows
+26.08.2023 00:18:40.619 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows
+26.08.2023 00:18:40.668 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3000 rows
+26.08.2023 00:18:40.694 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4000 rows
+26.08.2023 00:18:40.724 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5000 rows
+26.08.2023 00:18:40.752 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6000 rows
+26.08.2023 00:18:40.782 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7000 rows
+26.08.2023 00:18:40.808 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 8000 rows
+26.08.2023 00:18:40.838 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 9000 rows
+26.08.2023 00:18:40.870 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 10000 rows
+26.08.2023 00:18:40.903 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 11000 rows
+26.08.2023 00:18:40.930 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 12000 rows
+26.08.2023 00:18:40.957 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 13000 rows
+26.08.2023 00:18:40.986 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 14000 rows
+26.08.2023 00:18:41.009 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 15000 rows
+26.08.2023 00:18:41.036 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 16000 rows
+26.08.2023 00:18:41.067 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 17000 rows
+26.08.2023 00:18:41.095 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 18000 rows
+26.08.2023 00:18:41.126 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 19000 rows
+26.08.2023 00:18:41.153 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 20000 rows
+26.08.2023 00:18:41.176 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 21000 rows
+26.08.2023 00:18:41.204 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 22000 rows
+26.08.2023 00:18:41.240 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 23000 rows
+26.08.2023 00:18:41.266 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 24000 rows
+26.08.2023 00:18:41.294 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 25000 rows
+26.08.2023 00:18:41.324 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 26000 rows
+26.08.2023 00:18:41.357 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 27000 rows
+26.08.2023 00:18:41.378 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 28000 rows
+26.08.2023 00:18:41.398 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 29000 rows
+26.08.2023 00:18:41.420 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 30000 rows
+26.08.2023 00:18:41.444 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 31000 rows
+26.08.2023 00:18:41.469 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 32000 rows
+26.08.2023 00:18:41.496 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 33000 rows
+26.08.2023 00:18:41.524 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 34000 rows
+26.08.2023 00:18:41.551 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 35000 rows
+26.08.2023 00:18:41.576 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 36000 rows
+26.08.2023 00:18:41.603 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 37000 rows
+26.08.2023 00:18:41.633 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 38000 rows
+26.08.2023 00:18:41.656 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 39000 rows
+26.08.2023 00:18:41.682 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 40000 rows
+26.08.2023 00:18:41.705 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 41000 rows
+26.08.2023 00:18:41.731 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 42000 rows
+26.08.2023 00:18:41.756 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 43000 rows
+26.08.2023 00:18:41.777 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 44000 rows
+26.08.2023 00:18:41.801 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 45000 rows
+26.08.2023 00:18:41.818 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 46000 rows
+26.08.2023 00:18:41.834 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 47000 rows
+26.08.2023 00:18:41.853 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 48000 rows
+26.08.2023 00:18:41.875 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 49000 rows
+26.08.2023 00:18:41.890 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 50000 rows
+26.08.2023 00:18:41.907 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 51000 rows
+26.08.2023 00:18:41.940 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 52000 rows
+26.08.2023 00:18:41.959 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 53000 rows
+26.08.2023 00:18:41.983 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 54000 rows
+26.08.2023 00:18:42.000 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 55000 rows
+26.08.2023 00:18:42.020 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 56000 rows
+26.08.2023 00:18:42.037 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 57000 rows
+26.08.2023 00:18:42.054 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 58000 rows
+26.08.2023 00:18:42.076 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 59000 rows
+26.08.2023 00:18:42.103 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 60000 rows
+26.08.2023 00:18:42.143 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 61000 rows
+26.08.2023 00:18:42.190 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 62000 rows
+26.08.2023 00:18:42.211 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 63000 rows
+26.08.2023 00:18:42.236 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 64000 rows
+26.08.2023 00:18:42.258 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 65000 rows
+26.08.2023 00:18:42.281 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 66000 rows
+26.08.2023 00:18:42.302 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 67000 rows
+26.08.2023 00:18:42.324 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 68000 rows
+26.08.2023 00:18:42.346 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 69000 rows
+26.08.2023 00:18:42.373 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 70000 rows
+26.08.2023 00:18:42.415 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 71000 rows
+26.08.2023 00:18:42.470 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 72000 rows
+26.08.2023 00:18:42.508 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 73000 rows
+26.08.2023 00:18:42.544 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 74000 rows
+26.08.2023 00:18:42.592 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 75000 rows
+26.08.2023 00:18:42.633 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 76000 rows
+26.08.2023 00:18:42.677 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 77000 rows
+26.08.2023 00:18:42.721 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 78000 rows
+26.08.2023 00:18:42.768 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 79000 rows
+26.08.2023 00:18:42.797 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 80000 rows
+26.08.2023 00:18:42.834 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 81000 rows
+26.08.2023 00:18:42.872 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 82000 rows
+26.08.2023 00:18:42.909 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 83000 rows
+26.08.2023 00:18:42.945 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 84000 rows
+26.08.2023 00:18:42.981 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 85000 rows
+26.08.2023 00:18:43.019 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 86000 rows
+26.08.2023 00:18:43.061 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 87000 rows
+26.08.2023 00:18:43.100 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 88000 rows
+26.08.2023 00:18:43.161 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 89000 rows
+26.08.2023 00:18:43.193 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 90000 rows
+26.08.2023 00:18:43.208 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 91000 rows
+26.08.2023 00:18:43.222 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 92000 rows
+26.08.2023 00:18:43.237 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 93000 rows
+26.08.2023 00:18:43.253 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 94000 rows
+26.08.2023 00:18:43.277 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 95000 rows
+26.08.2023 00:18:43.312 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 96000 rows
+26.08.2023 00:18:43.340 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 97000 rows
+26.08.2023 00:18:43.364 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 98000 rows
+26.08.2023 00:18:43.390 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 99000 rows
+26.08.2023 00:18:43.414 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 100000 rows
+26.08.2023 00:18:43.419 [main] DEBUG c.l.d.ProductsInShopsDAO - Data into Products table inserted
+26.08.2023 00:18:43.419 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS into ProductsInShops is 2.904 
+26.08.2023 00:18:43.419 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS rows in second 34466.25344352617 
+26.08.2023 00:18:43.420 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted 100090 rows into ProductsInShops  
+26.08.2023 00:18:43.420 [main] DEBUG c.l.d.ProductsInShopsDAO - Data into collection 'products' inserted
+26.08.2023 00:18:43.422 [main] ERROR c.l.DataProcessing - You need to input product type. Now type is Food
+26.08.2023 00:18:43.615 [main] DEBUG c.l.d.ProductsInShopsDAO - Document is: Document{{_id=с. П. Борщагівка, вул. Кришталева, 6, totalAmount=18233}}
+26.08.2023 00:18:43.617 [main] INFO  c.l.d.ProductsInShopsDAO - The largest number of products (18233) of the Food type is in the store at the address: с. П. Борщагівка, вул. Кришталева, 6
+26.08.2023 00:18:43.632 [main] INFO  com.level3_2.App - Program finished
+26.08.2023 00:21:46.202 [main] DEBUG com.level3_2.App - Start program
+26.08.2023 00:21:46.210 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:21:46.214 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:21:46.218 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:21:46.218 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:21:46.304 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:21:46.305 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:21:46.670 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:21:46.670 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:21:47.316 [main] DEBUG com.level3_2.App - MongoDB was created
+26.08.2023 00:21:47.455 [main] DEBUG c.l.CollectionsCreator - Collection shop dropped
+26.08.2023 00:21:47.487 [main] DEBUG c.l.CollectionsCreator - Collection shop created
+26.08.2023 00:21:47.492 [main] DEBUG c.l.CollectionsCreator - Collection type dropped
+26.08.2023 00:21:47.507 [main] DEBUG c.l.CollectionsCreator - Collection type created
+26.08.2023 00:21:47.512 [main] DEBUG c.l.CollectionsCreator - Collection products dropped
+26.08.2023 00:21:47.529 [main] DEBUG c.l.CollectionsCreator - Collection products created
+26.08.2023 00:21:47.536 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops dropped
+26.08.2023 00:21:47.552 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops created
+26.08.2023 00:21:47.554 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 00:21:47.556 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 00:21:47.604 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 00:21:47.605 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+26.08.2023 00:21:47.605 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+26.08.2023 00:21:47.610 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'type' inserted
+26.08.2023 00:21:47.610 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:21:48.693 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:21:48.694 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.062 
+26.08.2023 00:21:48.696 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 9416.195856873823 
+26.08.2023 00:21:49.061 [main] INFO  c.level3_2.dao.DAO - Inserted RPS into products is 0.364 
+26.08.2023 00:21:49.061 [main] INFO  c.level3_2.dao.DAO - Inserted RPS rows in second 27472.527472527472 
+26.08.2023 00:21:49.062 [main] INFO  c.level3_2.dao.DAO - Inserted rows 10000 
+26.08.2023 00:21:49.062 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'products' inserted
+26.08.2023 00:21:49.242 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows
+26.08.2023 00:21:49.293 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows
+26.08.2023 00:21:49.338 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3000 rows
+26.08.2023 00:21:49.369 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4000 rows
+26.08.2023 00:21:49.397 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5000 rows
+26.08.2023 00:21:49.427 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6000 rows
+26.08.2023 00:21:49.453 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7000 rows
+26.08.2023 00:21:49.483 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 8000 rows
+26.08.2023 00:21:49.508 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 9000 rows
+26.08.2023 00:21:49.552 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 10000 rows
+26.08.2023 00:21:49.580 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 11000 rows
+26.08.2023 00:21:49.609 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 12000 rows
+26.08.2023 00:21:49.636 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 13000 rows
+26.08.2023 00:21:49.667 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 14000 rows
+26.08.2023 00:21:49.691 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 15000 rows
+26.08.2023 00:21:49.721 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 16000 rows
+26.08.2023 00:21:49.753 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 17000 rows
+26.08.2023 00:21:49.795 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 18000 rows
+26.08.2023 00:21:49.826 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 19000 rows
+26.08.2023 00:21:49.853 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 20000 rows
+26.08.2023 00:21:49.879 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 21000 rows
+26.08.2023 00:21:49.906 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 22000 rows
+26.08.2023 00:21:49.931 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 23000 rows
+26.08.2023 00:21:49.962 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 24000 rows
+26.08.2023 00:21:49.992 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 25000 rows
+26.08.2023 00:21:50.024 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 26000 rows
+26.08.2023 00:21:50.046 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 27000 rows
+26.08.2023 00:21:50.065 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 28000 rows
+26.08.2023 00:21:50.086 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 29000 rows
+26.08.2023 00:21:50.104 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 30000 rows
+26.08.2023 00:21:50.124 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 31000 rows
+26.08.2023 00:21:50.154 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 32000 rows
+26.08.2023 00:21:50.177 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 33000 rows
+26.08.2023 00:21:50.200 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 34000 rows
+26.08.2023 00:21:50.228 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 35000 rows
+26.08.2023 00:21:50.257 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 36000 rows
+26.08.2023 00:21:50.276 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 37000 rows
+26.08.2023 00:21:50.296 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 38000 rows
+26.08.2023 00:21:50.316 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 39000 rows
+26.08.2023 00:21:50.338 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 40000 rows
+26.08.2023 00:21:50.361 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 41000 rows
+26.08.2023 00:21:50.385 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 42000 rows
+26.08.2023 00:21:50.403 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 43000 rows
+26.08.2023 00:21:50.426 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 44000 rows
+26.08.2023 00:21:50.449 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 45000 rows
+26.08.2023 00:21:50.471 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 46000 rows
+26.08.2023 00:21:50.490 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 47000 rows
+26.08.2023 00:21:50.510 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 48000 rows
+26.08.2023 00:21:50.537 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 49000 rows
+26.08.2023 00:21:50.558 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 50000 rows
+26.08.2023 00:21:50.584 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 51000 rows
+26.08.2023 00:21:50.612 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 52000 rows
+26.08.2023 00:21:50.638 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 53000 rows
+26.08.2023 00:21:50.663 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 54000 rows
+26.08.2023 00:21:50.691 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 55000 rows
+26.08.2023 00:21:50.707 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 56000 rows
+26.08.2023 00:21:50.722 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 57000 rows
+26.08.2023 00:21:50.737 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 58000 rows
+26.08.2023 00:21:50.762 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 59000 rows
+26.08.2023 00:21:50.808 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 60000 rows
+26.08.2023 00:21:50.851 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 61000 rows
+26.08.2023 00:21:50.889 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 62000 rows
+26.08.2023 00:21:50.928 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 63000 rows
+26.08.2023 00:21:50.963 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 64000 rows
+26.08.2023 00:21:51.004 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 65000 rows
+26.08.2023 00:21:51.042 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 66000 rows
+26.08.2023 00:21:51.081 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 67000 rows
+26.08.2023 00:21:51.120 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 68000 rows
+26.08.2023 00:21:51.158 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 69000 rows
+26.08.2023 00:21:51.197 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 70000 rows
+26.08.2023 00:21:51.249 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 71000 rows
+26.08.2023 00:21:51.300 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 72000 rows
+26.08.2023 00:21:51.339 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 73000 rows
+26.08.2023 00:21:51.390 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 74000 rows
+26.08.2023 00:21:51.433 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 75000 rows
+26.08.2023 00:21:51.469 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 76000 rows
+26.08.2023 00:21:51.507 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 77000 rows
+26.08.2023 00:21:51.547 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 78000 rows
+26.08.2023 00:21:51.585 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 79000 rows
+26.08.2023 00:21:51.621 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 80000 rows
+26.08.2023 00:21:51.643 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 81000 rows
+26.08.2023 00:21:51.668 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 82000 rows
+26.08.2023 00:21:51.691 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 83000 rows
+26.08.2023 00:21:51.706 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 84000 rows
+26.08.2023 00:21:51.725 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 85000 rows
+26.08.2023 00:21:51.743 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 86000 rows
+26.08.2023 00:21:51.769 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 87000 rows
+26.08.2023 00:21:51.804 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 88000 rows
+26.08.2023 00:21:51.849 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 89000 rows
+26.08.2023 00:21:51.869 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 90000 rows
+26.08.2023 00:21:51.882 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 91000 rows
+26.08.2023 00:21:51.894 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 92000 rows
+26.08.2023 00:21:51.908 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 93000 rows
+26.08.2023 00:21:51.922 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 94000 rows
+26.08.2023 00:21:51.937 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 95000 rows
+26.08.2023 00:21:51.956 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 96000 rows
+26.08.2023 00:21:51.981 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 97000 rows
+26.08.2023 00:21:52.028 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 98000 rows
+26.08.2023 00:21:52.069 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 99000 rows
+26.08.2023 00:21:52.111 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 100000 rows
+26.08.2023 00:21:52.121 [main] DEBUG c.l.d.ProductsInShopsDAO - Data into Products table inserted
+26.08.2023 00:21:52.122 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS into ProductsInShops is 2.932 
+26.08.2023 00:21:52.125 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS rows in second 34137.10777626194 
+26.08.2023 00:21:52.127 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted 100090 rows into ProductsInShops  
+26.08.2023 00:21:52.127 [main] DEBUG c.l.d.ProductsInShopsDAO - Data into collection 'products' inserted
+26.08.2023 00:21:52.130 [main] ERROR c.l.DataProcessing - You need to input product type. Now type is Food
+26.08.2023 00:21:52.269 [main] DEBUG c.l.d.ProductsInShopsDAO - Document is: Document{{_id=Київ, Дніпровська наб., 33, totalAmount=17194}}
+26.08.2023 00:21:52.270 [main] INFO  c.l.d.ProductsInShopsDAO - The largest number of products (17194) of the Food type is in the store at the address: Київ, Дніпровська наб., 33
+26.08.2023 00:21:52.281 [main] INFO  com.level3_2.App - Program finished
+26.08.2023 00:22:03.156 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:22:03.195 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:22:03.330 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:22:03.331 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:22:22.749 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:22:22.784 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:22:22.924 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:22:22.934 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:22:52.519 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:22:52.543 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:23:21.818 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:23:21.851 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:23:47.283 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:23:47.344 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:24:04.774 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:24:04.817 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:24:47.100 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:24:47.119 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:24:47.295 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:24:47.296 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:24:47.985 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:24:47.986 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:24:48.059 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:24:48.089 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:24:48.091 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:24:48.106 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:24:48.107 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:24:48.131 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:24:48.132 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:24:48.150 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:24:48.151 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:17.830 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:17.841 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:17.954 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:25:17.955 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:25:18.435 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:18.435 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:18.509 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:25:18.526 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:18.527 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:18.539 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:18.540 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:18.553 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:18.554 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:18.570 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:18.571 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:51.055 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:51.065 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:51.153 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:25:51.153 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:25:51.630 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:51.631 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:51.710 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:25:52.933 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:25:52.934 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.208 
+26.08.2023 00:25:52.936 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 8278.14569536424 
+26.08.2023 00:25:52.956 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:52.957 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:52.967 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:52.968 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:52.978 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:52.978 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:25:52.989 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:25:52.990 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:26:04.889 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:26:04.904 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:26:05.009 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:26:05.009 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:26:05.527 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:26:05.529 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:26:05.609 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:26:06.665 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:26:06.666 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.045 
+26.08.2023 00:26:06.667 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 9569.377990430623 
+26.08.2023 00:26:06.688 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:26:06.688 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:26:06.702 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:26:06.703 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:26:06.716 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:26:06.716 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:26:06.727 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:26:06.728 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:29:46.265 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:29:46.279 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:29:46.390 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:29:46.391 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:29:46.809 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:29:46.809 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:29:47.050 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:29:47.051 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:29:47.181 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:29:48.027 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:29:48.027 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.829 
+26.08.2023 00:29:48.029 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 12062.726176115802 
+26.08.2023 00:29:48.047 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:29:48.048 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:29:48.060 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:29:48.060 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:29:48.069 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:29:48.069 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:29:48.080 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:29:48.080 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:30:30.782 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:30:30.791 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:30:30.929 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:30:30.929 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:30:31.377 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:30:31.378 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:30:31.617 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:30:31.618 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:30:31.728 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:30:32.595 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:30:32.595 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.838 
+26.08.2023 00:30:32.597 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 11933.174224343677 
+26.08.2023 00:30:32.611 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:30:32.612 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:30:32.624 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:30:32.624 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:30:32.636 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:30:32.637 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:30:32.648 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:30:32.648 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:32:25.309 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:32:25.319 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:32:25.482 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:32:25.484 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:32:26.511 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:32:26.513 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:32:26.587 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:32:27.551 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:32:27.551 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.951 
+26.08.2023 00:32:27.554 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 10515.247108307045 
+26.08.2023 00:33:28.926 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:33:28.936 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:33:29.056 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:33:29.057 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:33:30.158 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:33:30.158 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:33:30.266 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:33:31.206 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:33:31.206 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.922 
+26.08.2023 00:33:31.208 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 10845.986984815618 
+26.08.2023 00:37:48.718 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:37:48.726 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:37:48.823 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:37:48.823 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:37:49.929 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:37:49.931 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:37:50.098 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:37:51.013 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:37:51.013 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.89 
+26.08.2023 00:37:51.015 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 11235.955056179775 
+26.08.2023 00:37:51.030 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:37:51.030 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:37:51.052 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:37:51.052 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:38:59.070 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:38:59.077 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:38:59.173 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:38:59.174 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:39:00.154 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:39:00.154 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:39:00.312 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:39:00.313 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:39:00.372 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:39:01.257 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:39:01.258 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.875 
+26.08.2023 00:39:01.260 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 11428.57142857143 
+26.08.2023 00:39:01.274 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:39:01.274 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:39:01.298 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:39:01.299 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:40:09.949 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:40:09.964 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:40:10.094 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:40:10.095 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:40:11.127 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:40:11.128 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:40:11.246 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:40:11.247 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:40:11.304 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:40:12.061 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:40:12.061 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.746 
+26.08.2023 00:40:12.063 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 13404.825737265415 
+26.08.2023 00:40:12.075 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:40:12.076 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:40:12.109 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:40:12.110 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:00.855 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:00.867 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:00.990 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:41:00.991 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:41:01.722 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:01.722 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:01.870 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:01.871 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:01.930 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:41:02.874 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:41:02.875 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.93 
+26.08.2023 00:41:02.876 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 10752.68817204301 
+26.08.2023 00:41:02.893 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:02.894 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:02.915 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:02.916 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:24.500 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:24.514 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:24.619 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+26.08.2023 00:41:24.620 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+26.08.2023 00:41:25.831 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:25.832 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:26.080 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:26.081 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:26.135 [main] DEBUG c.l.DocumentGenerator - Generating products list
+26.08.2023 00:41:27.005 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+26.08.2023 00:41:27.005 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.86 
+26.08.2023 00:41:27.008 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 11627.906976744187 
+26.08.2023 00:41:27.023 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:27.023 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:41:27.043 [main] DEBUG c.l.FileProcessing - File config.properties was found
+26.08.2023 00:41:27.044 [main] DEBUG c.l.FileProcessing - Properties were loaded
+26.08.2023 00:49:32.855 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 00:49:32.870 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 00:50:30.195 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 00:50:30.207 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:07:34.428 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:07:34.433 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:10:11.736 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:10:11.742 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:11:05.885 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:11:05.889 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:11:35.600 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:11:35.607 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:16:25.981 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:16:25.987 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:18:11.995 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:18:12.005 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:18:12.050 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:19:54.174 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:19:54.181 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:19:54.239 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:21:05.279 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:21:05.285 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:21:05.323 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:21:48.722 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:21:48.730 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:21:48.781 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:23:16.172 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:23:16.189 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:23:16.268 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:24:54.972 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:24:54.977 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:24:55.025 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:29:27.759 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:32:49.109 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:33:14.135 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:33:29.691 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:33:38.056 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+26.08.2023 23:33:38.065 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+26.08.2023 23:33:38.125 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+26.08.2023 23:33:53.855 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
