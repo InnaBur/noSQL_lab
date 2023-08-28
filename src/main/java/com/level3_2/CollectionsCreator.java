@@ -23,6 +23,7 @@ public class CollectionsCreator {
     }
 
     public void createCollection(MongoDatabase database, String collectionName) {
+        logger.info("Start create collection");
         if (database.listCollectionNames().into(new ArrayList<>()).contains(collectionName)) {
             database.getCollection(collectionName).drop();
             logger.debug("Collection {} dropped", collectionName);

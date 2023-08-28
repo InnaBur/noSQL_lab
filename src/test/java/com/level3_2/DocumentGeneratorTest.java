@@ -58,8 +58,6 @@ class DocumentGeneratorTest {
         assertEquals(quantityDTO, doc.size());
     }
 
-
-
     @Test
     void generateRandomObjectId() {
         List<ObjectId> id = Arrays.asList(new ObjectId("123456789101112131415161"));

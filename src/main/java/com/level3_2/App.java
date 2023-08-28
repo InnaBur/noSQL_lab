@@ -7,6 +7,7 @@ import com.level3_2.dao.ShopDAO;
 import com.level3_2.dto.ProductDto;
 import com.mongodb.MongoException;
 import com.mongodb.client.*;
+//import com.mongodb.MongoClient;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +25,7 @@ public class App {
     public static void main(String[] args) throws IOException, SQLException {
 
         logger.debug("Start program");
+        ConnectionCreator connectionCreator = new ConnectionCreator();
         FileProcessing fileProcessing = new FileProcessing();
         Properties properties = fileProcessing.loadProperties();
         ProductTypeDAO productTypeDAO = new ProductTypeDAO();
@@ -34,11 +36,15 @@ public class App {
 
 //        try (MongoClient mongoClient = MongoClients.create(properties.getProperty("url"))) {
 //            logger.debug("MongoDB was created");
-            try (MongoClient mongoClient = ConnectionCreator.createConnection()) {
-                logger.debug("MongoDB was created");
+        try (MongoClient mongoClient = connectionCreator.createConnection()) {
+//            try (MongoClient mongoClient = ConnectionCreator.createConnectionWithoutTLS()) {
+            logger.debug("MongoDB was created");
 
             MongoDatabase database = mongoClient.getDatabase("myMongoDb");
+            logger.info("Db was got");
+
             collectionsCreator.createCollectionsReference(database);
+            logger.info("Collections created");
 
             shopDAO.insertDataIntoCollection(database);
             productTypeDAO.insertDataIntoCollection(database);

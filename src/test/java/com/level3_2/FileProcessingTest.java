@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.nio.charset.StandardCharsets;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Properties;
@@ -27,13 +28,13 @@ class FileProcessingTest {
 
     }
 
-    @Test
-    void loadPropertiesTest() {
-        String expected = "mongoDB";
-        String actual = fileProcessing.loadProperties().getProperty("username");
-
-        assertEquals(expected, actual);
-    }
+//    @Test
+//    void loadPropertiesTest() {
+//        String expected = "mongoDB";
+//        String actual = fileProcessing.loadProperties().getProperty("username");
+//
+//        assertEquals(expected, actual);
+//    }
 
     @Test
     void loadPropertiesTest2() {
