@@ -119,3 +119,20 @@ Caused by: java.security.UnrecoverableKeyException: Password verification failed
 28.08.2023 09:16:32.313 [main] DEBUG o.m.driver.operation - Unable to retry an operation due to the error "com.mongodb.MongoTimeoutException: Timed out after 30000 ms while waiting for a server that matches ReadPreferenceServerSelector{readPreference=primary}. Client view of cluster state is {type=REPLICA_SET, servers=[{address=docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoClientException: Unable to create default SSLContext}, caused by {java.security.NoSuchAlgorithmException: Error constructing implementation (algorithm: Default, provider: SunJSSE, class: sun.security.ssl.SSLContextImpl$DefaultSSLContext)}, caused by {java.security.KeyStoreException: problem accessing trust store}, caused by {java.io.IOException: Keystore was tampered with, or password was incorrect}, caused by {java.security.UnrecoverableKeyException: Password verification failed}}]"
 28.08.2023 09:16:32.314 [main] DEBUG o.m.d.connection - Connection pool closed for docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017
 28.08.2023 09:16:32.317 [main] ERROR com.level3_2.App - MongoDB was not created
+28.08.2023 09:21:56.560 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+28.08.2023 09:21:56.780 [main] DEBUG c.l.FileProcessing - File config.properties was found
+28.08.2023 09:21:56.792 [main] DEBUG c.l.FileProcessing - Properties were loaded
+28.08.2023 09:21:56.919 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+28.08.2023 09:21:56.920 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+28.08.2023 09:21:57.834 [main] DEBUG c.l.FileProcessing - File config.properties was found
+28.08.2023 09:21:57.835 [main] DEBUG c.l.FileProcessing - Properties were loaded
+28.08.2023 09:21:57.878 [main] DEBUG c.l.FileProcessing - File config.properties was found
+28.08.2023 09:21:57.879 [main] DEBUG c.l.FileProcessing - Properties were loaded
+28.08.2023 09:21:57.899 [main] DEBUG c.l.DocumentGenerator - Generating products list
+28.08.2023 09:21:58.839 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+28.08.2023 09:21:58.839 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.934 
+28.08.2023 09:21:58.839 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 10706.638115631691 
+28.08.2023 09:21:58.845 [main] DEBUG c.l.FileProcessing - File config.properties was found
+28.08.2023 09:21:58.845 [main] DEBUG c.l.FileProcessing - Properties were loaded
+28.08.2023 09:21:58.870 [main] DEBUG c.l.FileProcessing - File config.properties was found
+28.08.2023 09:21:58.871 [main] DEBUG c.l.FileProcessing - Properties were loaded
