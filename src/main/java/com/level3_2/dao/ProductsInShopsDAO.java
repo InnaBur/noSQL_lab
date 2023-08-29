@@ -97,14 +97,17 @@ public class ProductsInShopsDAO {
 
         String typeFromConsole = new DataProcessing().readOutputFormat();
         ObjectId prodTypeId = productTypeCollection.find(eq("type", typeFromConsole)).first().getObjectId("_id");
-
+        StopWatch watch = new StopWatch();
+        watch.start();
         List<Bson> shopAddress = Arrays.asList(
                 match(eq("type_id", prodTypeId)),
                 group("$shop", sum("totalAmount", "$amount")),
                 sort(descending("totalAmount")),
                 limit(1)
         );
-
+        watch.stop();
+        double sec = watch.getTime();
+        logger.info("Row found for {} milliseconds", sec);
         printResults(productsInShopsCollection, shopAddress, typeFromConsole);
     }
 

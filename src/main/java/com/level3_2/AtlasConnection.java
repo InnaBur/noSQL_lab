@@ -15,10 +15,11 @@ public class AtlasConnection {
         MongoDatabase database;
         String username = "mongoInna";
         String password = "admin124";
-        String uri = "mongodb+srv://mongoInna:admin124@cluster0.qg9kdnn.mongodb.net/?retryWrites=true&w=majority";
+        String uri = "mongodb+srv://mongoInna:admin124@cluster0.qg9kdnn.mongodb.net/?retryWrites=true&w=majority";;
         try (MongoClient mongoClient = MongoClients.create(uri)) {
             logger.info("MongoClient created");
-            database = mongoClient.getDatabase("myMongo");
+            database = mongoClient.getDatabase("myMongoDb");
+            logger.debug("MongoDB was created");
             logger.info("Database is got");
 //            MongoCollection<Document> collection = database.getCollection("movies");
 //            Document doc = collection.find(eq("title", "Back to the Future")).first();
