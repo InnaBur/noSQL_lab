@@ -1780,3 +1780,92 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68)
 	... 4 common frames omitted
 29.08.2023 20:37:19.117 [cluster-ClusterId{value='64ee2cc4484d76129e7b434d', description='null'}-docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] DEBUG o.m.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]
+29.08.2023 20:45:02.368 [main] DEBUG com.level3_2.App - Start program
+29.08.2023 20:45:02.397 [main] WARN  o.mongodb.driver.uri - Connection string contains unsupported option 'tlscafile'.
+29.08.2023 20:45:03.083 [main] DEBUG o.m.d.connection - Connection pool created for docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017 using options maxIdleTimeMS=0, minPoolSize=0, maxPoolSize=100, maxConnecting=2, waitQueueTimeoutMS=120000
+29.08.2023 20:45:03.104 [main] DEBUG o.m.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING}]
+29.08.2023 20:45:03.151 [main] INFO  o.m.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.10.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./11.0.19+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=false, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='myMongoDb', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7fcf2fc1, com.mongodb.Jep395RecordCodecProvider@2141a12, com.mongodb.KotlinCodecProvider@4196c360]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=true, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+29.08.2023 20:45:03.152 [main] DEBUG com.level3_2.App - MongoDB was created
+29.08.2023 20:45:03.171 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 20:45:03.175 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 20:45:03.182 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 20:45:03.183 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 20:45:03.289 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+29.08.2023 20:45:03.290 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+29.08.2023 20:45:03.709 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 20:45:03.711 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 20:45:03.719 [main] INFO  c.l.CollectionsCreator - Start create collection
+29.08.2023 20:45:03.750 [main] INFO  o.m.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+29.08.2023 20:45:13.599 [cluster-ClusterId{value='64ee2e9eb4868d3eac143a39', description='null'}-docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] INFO  o.m.driver.cluster - Exception in monitor thread while connecting to server docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:73)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:209)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:199)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:159)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:305)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:82)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68)
+	... 4 common frames omitted
+29.08.2023 20:45:13.622 [cluster-ClusterId{value='64ee2e9eb4868d3eac143a39', description='null'}-docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] DEBUG o.m.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]
+29.08.2023 21:01:25.058 [main] DEBUG com.level3_2.App - Start program
+29.08.2023 21:01:25.080 [main] WARN  o.mongodb.driver.uri - Connection string contains unsupported option 'tlscafile'.
+29.08.2023 21:01:25.714 [main] DEBUG o.m.d.connection - Connection pool created for docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017 using options maxIdleTimeMS=0, minPoolSize=0, maxPoolSize=100, maxConnecting=2, waitQueueTimeoutMS=120000
+29.08.2023 21:01:25.744 [main] DEBUG o.m.driver.cluster - Updating cluster description to  {type=UNKNOWN, servers=[{address=docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING}]
+29.08.2023 21:01:25.794 [main] INFO  o.m.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.10.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./11.0.19+7-LTS"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=false, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='myMongoDb', source='admin', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@571c5681, com.mongodb.Jep395RecordCodecProvider@488d1cd7, com.mongodb.KotlinCodecProvider@68dc098b]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+29.08.2023 21:01:25.795 [main] DEBUG com.level3_2.App - MongoDB was created
+29.08.2023 21:01:25.811 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:01:25.815 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:01:25.819 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:01:25.820 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:01:25.905 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+29.08.2023 21:01:25.906 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+29.08.2023 21:01:26.265 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:01:26.265 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:01:26.275 [main] INFO  c.l.CollectionsCreator - Start create collection
+29.08.2023 21:01:26.318 [main] INFO  o.m.driver.cluster - Cluster description not yet available. Waiting for 30000 ms before timing out
+29.08.2023 21:03:36.317 [main] DEBUG com.level3_2.App - Start program
+29.08.2023 21:03:36.936 [main] INFO  o.m.driver.cluster - Adding discovered server docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017 to client view of cluster
+29.08.2023 21:03:36.988 [main] DEBUG o.m.d.connection - Connection pool created for docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017 using options maxIdleTimeMS=0, minPoolSize=0, maxPoolSize=100, maxConnecting=2, waitQueueTimeoutMS=120000
+29.08.2023 21:03:37.022 [main] DEBUG o.m.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING}]
+29.08.2023 21:03:37.071 [main] INFO  o.m.driver.client - MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync", "version": "4.10.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Amazon.com Inc./11.0.19+7-LTS"} created with settings MongoClientSettings{readPreference=ReadPreference{name=secondaryPreferred, hedgeOptions=null}, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=MongoCredential{mechanism=null, userName='myMongoDb', source='myMongoDb', password=<hidden>, mechanismProperties=<hidden>}, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.client.model.mql.ExpressionCodecProvider@7fbdb894, com.mongodb.Jep395RecordCodecProvider@3081f72c, com.mongodb.KotlinCodecProvider@3148f668]}, loggerSettings=LoggerSettings{maxDocumentLength=1000}, clusterSettings={hosts=[docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017], srvServiceName=mongodb, mode=MULTIPLE, requiredClusterType=REPLICA_SET, requiredReplicaSetName='rs0', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=UNSPECIFIED, serverApi=null, autoEncryptionSettings=null, dnsClient=null, inetAddressResolver=null, contextProvider=null}
+29.08.2023 21:03:37.071 [main] DEBUG com.level3_2.App - MongoDB was created
+29.08.2023 21:03:37.086 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:03:37.091 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:03:37.096 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:03:37.096 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:03:37.185 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+29.08.2023 21:03:37.186 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+29.08.2023 21:03:37.540 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:03:37.540 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:03:37.549 [main] INFO  c.l.CollectionsCreator - Start create collection
+29.08.2023 21:03:37.593 [main] INFO  o.m.driver.cluster - No server chosen by ReadPreferenceServerSelector{readPreference=primary} from cluster description ClusterDescription{type=REPLICA_SET, connectionMode=MULTIPLE, serverDescriptions=[ServerDescription{address=docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING}]}. Waiting for 30000 ms before timing out
+29.08.2023 21:03:47.128 [cluster-ClusterId{value='64ee32f89d144673d25711ff', description='null'}-docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] INFO  o.m.driver.cluster - Exception in monitor thread while connecting to server docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:73)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:209)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.lookupServerDescription(DefaultServerMonitor.java:199)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:159)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Caused by: java.net.SocketTimeoutException: connect timed out
+	at java.base/java.net.PlainSocketImpl.waitForConnect(Native Method)
+	at java.base/java.net.PlainSocketImpl.socketConnect(PlainSocketImpl.java:107)
+	at java.base/java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:412)
+	at java.base/java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:255)
+	at java.base/java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:237)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.base/java.net.Socket.connect(Socket.java:609)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:107)
+	at com.mongodb.internal.connection.SocketStream.initializeSocket(SocketStream.java:82)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:68)
+	... 4 common frames omitted
+29.08.2023 21:03:47.159 [cluster-ClusterId{value='64ee32f89d144673d25711ff', description='null'}-docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017] DEBUG o.m.driver.cluster - Updating cluster description to  {type=REPLICA_SET, servers=[{address=docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017, type=UNKNOWN, state=CONNECTING, exception={com.mongodb.MongoSocketOpenException: Exception opening socket}, caused by {java.net.SocketTimeoutException: connect timed out}}]
