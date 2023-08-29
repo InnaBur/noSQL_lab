@@ -55,7 +55,7 @@ public class ProductsInShopsDAO {
                 insertBatch(collection, documents, count);
             }
         }
-        logBatchNum(count, batchSize);
+        logBatchNum(count, 10000);
         insertRest(documents, collection);
 
         logger.debug("Data into Products table inserted");
