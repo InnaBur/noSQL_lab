@@ -4565,3 +4565,55 @@ Caused by: java.net.SocketTimeoutException: connect timed out
 29.08.2023 21:30:17.355 [main] DEBUG c.l.d.ProductsInShopsDAO - Document is: Document{{_id=Київ, пр-т Петра Григоренка, 40, totalAmount=175948}}
 29.08.2023 21:30:17.357 [main] INFO  c.l.d.ProductsInShopsDAO - The largest number of products (175948) of the Food type is in the store at the address: Київ, пр-т Петра Григоренка, 40
 29.08.2023 21:30:17.369 [main] INFO  com.level3_2.App - Program finished
+29.08.2023 21:36:35.102 [main] DEBUG com.level3_2.App - Start program
+29.08.2023 21:36:36.849 [main] DEBUG com.level3_2.App - MongoDB was created
+29.08.2023 21:36:36.863 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:36:36.867 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:36:36.871 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:36:36.871 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:36:36.944 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+29.08.2023 21:36:36.945 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+29.08.2023 21:36:37.260 [main] DEBUG c.l.FileProcessing - File config.properties was found
+29.08.2023 21:36:37.260 [main] DEBUG c.l.FileProcessing - Properties were loaded
+29.08.2023 21:36:37.265 [main] INFO  c.l.CollectionsCreator - Start create collection
+29.08.2023 21:36:39.768 [main] DEBUG c.l.CollectionsCreator - Collection shop dropped
+29.08.2023 21:36:39.934 [main] DEBUG c.l.CollectionsCreator - Collection shop created
+29.08.2023 21:36:39.934 [main] INFO  c.l.CollectionsCreator - Start create collection
+29.08.2023 21:36:40.043 [main] DEBUG c.l.CollectionsCreator - Collection type dropped
+29.08.2023 21:36:40.170 [main] DEBUG c.l.CollectionsCreator - Collection type created
+29.08.2023 21:36:40.170 [main] INFO  c.l.CollectionsCreator - Start create collection
+29.08.2023 21:36:40.277 [main] DEBUG c.l.CollectionsCreator - Collection products dropped
+29.08.2023 21:36:40.404 [main] DEBUG c.l.CollectionsCreator - Collection products created
+29.08.2023 21:36:40.405 [main] INFO  c.l.CollectionsCreator - Start create collection
+29.08.2023 21:36:40.515 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops dropped
+29.08.2023 21:36:40.642 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops created
+29.08.2023 21:36:40.643 [main] INFO  com.level3_2.App - Collections created
+29.08.2023 21:36:40.645 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+29.08.2023 21:36:40.647 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+29.08.2023 21:36:40.757 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+29.08.2023 21:36:40.759 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+29.08.2023 21:36:40.759 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+29.08.2023 21:36:40.811 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'type' inserted
+29.08.2023 21:36:40.811 [main] DEBUG c.l.DocumentGenerator - Generating products list
+29.08.2023 21:36:41.902 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+29.08.2023 21:36:41.902 [main] INFO  c.l.DocumentGenerator - RPS of generating is 1.025 
+29.08.2023 21:36:41.904 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 9756.097560975611 
+29.08.2023 21:36:49.850 [main] INFO  c.level3_2.dao.DAO - Inserted RPS into products is 7.945 
+29.08.2023 21:36:49.851 [main] INFO  c.level3_2.dao.DAO - Inserted RPS rows in second 1258.6532410320956 
+29.08.2023 21:36:49.851 [main] INFO  c.level3_2.dao.DAO - Inserted rows 10000 
+29.08.2023 21:36:49.851 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'products' inserted
+29.08.2023 21:36:52.207 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 500 rows
+29.08.2023 21:36:54.151 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows
+29.08.2023 21:36:56.198 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1500 rows
+29.08.2023 21:36:58.144 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows
+29.08.2023 21:37:00.191 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2500 rows
+29.08.2023 21:37:02.239 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3000 rows
+29.08.2023 21:37:04.186 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3500 rows
+29.08.2023 21:37:06.336 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4000 rows
+29.08.2023 21:37:08.179 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4500 rows
+29.08.2023 21:37:10.133 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5000 rows
+29.08.2023 21:37:11.167 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5500 rows
+29.08.2023 21:37:14.227 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6000 rows
+29.08.2023 21:37:16.131 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6500 rows
+29.08.2023 21:37:18.215 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7000 rows
+29.08.2023 21:37:20.159 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7500 rows
