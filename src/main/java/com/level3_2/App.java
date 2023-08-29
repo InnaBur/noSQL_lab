@@ -1,5 +1,7 @@
 package com.level3_2;
 
+import static com.mongodb.client.model.Filters.eq;
+
 import com.level3_2.dao.ProductTypeDAO;
 import com.level3_2.dao.ProductsDAO;
 import com.level3_2.dao.ProductsInShopsDAO;
@@ -8,6 +10,7 @@ import com.level3_2.dto.ProductDto;
 import com.mongodb.MongoException;
 import com.mongodb.client.*;
 //import com.mongodb.MongoClient;
+import org.bson.Document;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,23 +28,19 @@ public class App {
     public static void main(String[] args) throws IOException, SQLException {
 
         logger.debug("Start program");
-        ConnectionCreator connectionCreator = new ConnectionCreator();
-        FileProcessing fileProcessing = new FileProcessing();
-        Properties properties = fileProcessing.loadProperties();
-        ProductTypeDAO productTypeDAO = new ProductTypeDAO();
-        ShopDAO shopDAO = new ShopDAO();
-        ProductsDAO productsDAO = new ProductsDAO();
-        ProductsInShopsDAO productsInShopsDAO = new ProductsInShopsDAO(properties);
-        CollectionsCreator collectionsCreator = new CollectionsCreator();
-
-//        try (MongoClient mongoClient = MongoClients.create(properties.getProperty("url"))) {
-//            logger.debug("MongoDB was created");
-        try (MongoClient mongoClient = connectionCreator.createConnection()) {
-//            try (MongoClient mongoClient = ConnectionCreator.createConnectionWithoutTLS()) {
+        String uri = "mongodb+srv://mongoInna:admin124@cluster0.qg9kdnn.mongodb.net/?retryWrites=true&w=majority";
+        try (MongoClient mongoClient = MongoClients.create(uri)) {
             logger.debug("MongoDB was created");
 
             MongoDatabase database = mongoClient.getDatabase("myMongoDb");
-            logger.info("Db was got");
+
+            CollectionsCreator collectionsCreator = new CollectionsCreator();
+            FileProcessing fileProcessing = new FileProcessing();
+            Properties properties = fileProcessing.loadProperties();
+            ProductTypeDAO productTypeDAO = new ProductTypeDAO();
+            ShopDAO shopDAO = new ShopDAO();
+            ProductsDAO productsDAO = new ProductsDAO();
+            ProductsInShopsDAO productsInShopsDAO = new ProductsInShopsDAO(properties);
 
             collectionsCreator.createCollectionsReference(database);
             logger.info("Collections created");
@@ -55,12 +54,8 @@ public class App {
 
             productsInShopsDAO.insertDataIntoCollection(database, productDtos, shops);
             productsInShopsDAO.findShopByProductType(database);
-
-        } catch (MongoException e) {
-            logger.error("MongoDB was not created");
-            System.exit(1);
         }
+
         logger.info("Program finished");
     }
-
 }

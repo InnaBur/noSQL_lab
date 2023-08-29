@@ -26,7 +26,7 @@ public class ConnectionCreator {
         String username = "mongoDB";
         String password = "admin123";
         String db = "myMongoDb";
-        String clusterEndpoint = "docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017";
+        String clusterEndpoint = "docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017";
         String readPreference = "secondaryPreferred";
         String connectionString = String.format(template, username, password, clusterEndpoint, db, readPreference);
 
