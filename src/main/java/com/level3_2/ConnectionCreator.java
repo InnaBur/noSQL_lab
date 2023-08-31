@@ -14,14 +14,13 @@ public class ConnectionCreator {
         Properties properties = new FileProcessing().loadProperties();
         String uri = properties.getProperty("uri");
 
-        if (uri.equals("mongodb://myMongoDb:admin124@docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017/myMongoDb?readpreference=secondaryPreferred")) {
+        if (uri.equals("mongodb://myMongoDb:admin124@docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017/myMongo?readpreference=secondaryPreferred")) {
             String truststore = "/home/ubuntu/mongo/rds-truststore.jks";
             String truststorePassword = "adminPass";
             System.setProperty("javax.net.ssl.trustStore", truststore);
             System.setProperty("javax.net.ssl.trustStorePassword", truststorePassword);
         }
 //
-
         MongoClient mongoClient = MongoClients.create(uri);
 
         logger.info("Mongo client creates");

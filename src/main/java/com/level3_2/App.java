@@ -25,19 +25,17 @@ public class App {
 
         logger.debug("Start program");
         Properties properties = new FileProcessing().loadProperties();
-//        String uri = properties.getProperty("uri");
+        CollectionsCreator collectionsCreator = new CollectionsCreator();
+        ProductTypeDAO productTypeDAO = new ProductTypeDAO();
+        ShopDAO shopDAO = new ShopDAO();
+        ProductsDAO productsDAO = new ProductsDAO();
+        ProductsInShopsDAO productsInShopsDAO = new ProductsInShopsDAO(properties);
+
         try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
-//        try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
             logger.debug("MongoDB was created");
 
-            MongoDatabase database = mongoClient.getDatabase("myMongoDb");
+            MongoDatabase database = mongoClient.getDatabase("myMongo");
             logger.debug("DB was got");
-
-            CollectionsCreator collectionsCreator = new CollectionsCreator();
-            ProductTypeDAO productTypeDAO = new ProductTypeDAO();
-            ShopDAO shopDAO = new ShopDAO();
-            ProductsDAO productsDAO = new ProductsDAO();
-            ProductsInShopsDAO productsInShopsDAO = new ProductsInShopsDAO(properties);
 
             collectionsCreator.createCollectionsReference(database);
 
