@@ -17,6 +17,8 @@ public class ProductTypeDAO implements DAO {
     private final String COLLECTION_PRODUCT_TYPE = "type";
 
 
+
+
     @Override
     public void insertDataIntoCollection(MongoDatabase database) throws IOException {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCT_TYPE);

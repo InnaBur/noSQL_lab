@@ -19,6 +19,7 @@ public class ShopDAO implements DAO {
     FileProcessing fileProcessing = new FileProcessing();
 
 
+
     @Override
     public void insertDataIntoCollection(MongoDatabase database) throws IOException {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_SHOP);
@@ -63,6 +64,7 @@ public class ShopDAO implements DAO {
             String shop = document.getString("address");
             list.add(shop);
         }
+        logger.info("Shops list was got");
         return list;
     }
 }

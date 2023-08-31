@@ -10,6 +10,7 @@ import com.level3_2.dto.ProductDto;
 import com.mongodb.MongoException;
 import com.mongodb.client.*;
 //import com.mongodb.MongoClient;
+import org.apache.commons.lang3.time.StopWatch;
 import org.bson.Document;
 
 import org.slf4j.Logger;
@@ -20,6 +21,9 @@ import java.sql.*;
 
 import java.util.List;
 import java.util.Properties;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.TimeUnit;
 
 public class App {
 
@@ -33,12 +37,14 @@ public class App {
 
         String uri = "mongodb+srv://mongoInna:admin124@cluster0.qg9kdnn.mongodb.net/?retryWrites=true&w=majority";
 //        String uri = "mongodb://localhost:27017";
-        try (MongoClient mongoClient = MongoClients.create(uri)) {
+//        try (MongoClient mongoClient = MongoClients.create(uri)) {
+        try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
             logger.debug("MongoDB was created");
 
             MongoDatabase database = mongoClient.getDatabase("myMongoDb");
 
             CollectionsCreator collectionsCreator = new CollectionsCreator();
+            DocumentGenerator documentGenerator = new DocumentGenerator();
             FileProcessing fileProcessing = new FileProcessing();
             Properties properties = fileProcessing.loadProperties();
             ProductTypeDAO productTypeDAO = new ProductTypeDAO();
@@ -51,15 +57,20 @@ public class App {
 
             shopDAO.insertDataIntoCollection(database);
             productTypeDAO.insertDataIntoCollection(database);
+
+
             productsDAO.insertDataIntoCollection(database);
 
             List<ProductDto> productDtos = productsDAO.getProductsIntoList(database);
             List<String> shops = shopDAO.getShopIntoList(database);
 
-            productsInShopsDAO.insertDataIntoCollection(database, productDtos, shops);
+            productsInShopsDAO.insertWithThreads(database, productDtos, shops);
+//            productsInShopsDAO.insertDataIntoCollection(database, productDtos, shops);
             productsInShopsDAO.findShopByProductType(database);
         }
 
         logger.info("Program finished");
     }
+
+
 }
