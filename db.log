@@ -1009,3 +1009,68 @@
 31.08.2023 18:13:38.775 [main] DEBUG c.l.d.ProductsInShopsDAO - Document is: Document{{_id=Київ, пр-т Соборності, 7-Б, totalAmount=19631}}
 31.08.2023 18:13:38.776 [main] INFO  c.l.d.ProductsInShopsDAO - The largest number of products (19631) of the Food type is in the store at the address: Київ, пр-т Соборності, 7-Б
 31.08.2023 18:13:38.782 [main] INFO  com.level3_2.App - Program finished
+31.08.2023 18:20:54.105 [main] DEBUG com.level3_2.App - Start program
+31.08.2023 18:20:54.110 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 18:20:54.111 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 18:20:55.521 [main] DEBUG com.level3_2.App - MongoDB was created
+31.08.2023 18:20:55.526 [main] DEBUG com.level3_2.App - DB was got
+31.08.2023 18:20:55.528 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 18:20:55.528 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 18:20:55.569 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+31.08.2023 18:20:55.569 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+31.08.2023 18:20:55.710 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 18:20:55.710 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 18:20:55.714 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:20:57.661 [main] DEBUG c.l.CollectionsCreator - Collection shop dropped
+31.08.2023 18:20:57.828 [main] DEBUG c.l.CollectionsCreator - Collection shop created
+31.08.2023 18:20:57.828 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:20:57.898 [main] DEBUG c.l.CollectionsCreator - Collection type dropped
+31.08.2023 18:20:58.027 [main] DEBUG c.l.CollectionsCreator - Collection type created
+31.08.2023 18:20:58.027 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:20:58.097 [main] DEBUG c.l.CollectionsCreator - Collection products dropped
+31.08.2023 18:20:58.229 [main] DEBUG c.l.CollectionsCreator - Collection products created
+31.08.2023 18:20:58.230 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:20:58.303 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops dropped
+31.08.2023 18:20:58.455 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops created
+31.08.2023 18:20:58.456 [main] INFO  c.l.CollectionsCreator - Collections created
+31.08.2023 18:20:58.457 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+31.08.2023 18:20:58.459 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+31.08.2023 18:20:58.537 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+31.08.2023 18:20:58.537 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+31.08.2023 18:20:58.538 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+31.08.2023 18:20:58.592 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'type' inserted
+31.08.2023 18:20:58.592 [main] DEBUG c.l.DocumentGenerator - Generating products list
+31.08.2023 18:20:58.969 [main] INFO  c.l.DocumentGenerator - Generated 5000 DTO
+31.08.2023 18:20:58.969 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.322 
+31.08.2023 18:20:58.970 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 15527.950310559007 
+31.08.2023 18:20:58.971 [main] DEBUG c.level3_2.dao.DAO - Start inserting data into collection 'products'
+31.08.2023 18:21:04.881 [main] INFO  c.level3_2.dao.DAO - Inserted RPS into products is 5.91 
+31.08.2023 18:21:04.882 [main] INFO  c.level3_2.dao.DAO - Inserted RPS rows in second 846.0236886632825 
+31.08.2023 18:21:04.882 [main] INFO  c.level3_2.dao.DAO - Inserted rows 5000 
+31.08.2023 18:21:04.882 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'products' inserted
+31.08.2023 18:21:05.215 [main] INFO  c.level3_2.dao.DAO - Products list was got
+31.08.2023 18:21:05.254 [main] INFO  c.level3_2.dao.DAO - Shops list was got
+31.08.2023 18:21:06.420 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 1 thread
+31.08.2023 18:21:07.403 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 2 thread
+31.08.2023 18:21:08.434 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 0 thread
+31.08.2023 18:21:08.455 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 2 thread
+31.08.2023 18:21:08.455 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - 2625 rows inserted in 2 thread
+31.08.2023 18:21:10.428 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 0 thread
+31.08.2023 18:21:10.428 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 3 thread
+31.08.2023 18:21:10.430 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - 2625 rows inserted in 0 thread
+31.08.2023 18:21:12.516 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 3 thread
+31.08.2023 18:21:12.518 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - 2625 rows inserted in 3 thread
+31.08.2023 18:21:15.429 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 1 thread
+31.08.2023 18:21:15.430 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - 2625 rows inserted in 1 thread
+31.08.2023 18:21:15.430 [main] DEBUG c.l.d.ProductsInShopsDAO - Threads finished
+31.08.2023 18:21:15.430 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted rest
+31.08.2023 18:21:15.512 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted 3 documents
+31.08.2023 18:21:15.512 [main] DEBUG c.l.d.ProductsInShopsDAO - 3 rows inserted in 5 thread
+31.08.2023 18:21:15.513 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS into COLLECTION_PRODUCTS_IN_SHOPS is 10.257 
+31.08.2023 18:21:15.513 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS rows in second 1023.9836209417958 
+31.08.2023 18:21:15.513 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted 10503 rows into COLLECTION_PRODUCTS_IN_SHOPS  
+31.08.2023 18:21:15.515 [main] ERROR c.l.DataProcessing - You need to input product type. Now type is Food
+31.08.2023 18:21:15.562 [main] INFO  c.l.d.ProductsInShopsDAO - Row found for 3.0 milliseconds
+31.08.2023 18:21:15.613 [main] DEBUG c.l.d.ProductsInShopsDAO - Document is: Document{{_id=Київ, пр-т Соборності, 7-Б, totalAmount=1827}}
+31.08.2023 18:21:15.614 [main] INFO  c.l.d.ProductsInShopsDAO - The largest number of products (1827) of the Food type is in the store at the address: Київ, пр-т Соборності, 7-Б
+31.08.2023 18:21:15.785 [main] INFO  com.level3_2.App - Program finished

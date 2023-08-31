@@ -139,10 +139,13 @@ public class ProductsInShopsDAO {
 
     public void findShopByProductType(MongoDatabase database) {
         MongoCollection<Document> productTypeCollection = database.getCollection("type");
+        logger.debug("Type collection was got");
         MongoCollection<Document> productsInShopsCollection = database.getCollection("ProductsInShops");
+        logger.debug("ProdInShops collection was got");
 
         String typeFromConsole = new DataProcessing().readOutputFormat();
         ObjectId prodTypeId = productTypeCollection.find(eq("type", typeFromConsole)).first().getObjectId("_id");
+
         StopWatch watch = new StopWatch();
         watch.start();
         List<Bson> shopAddress = Arrays.asList(
@@ -151,6 +154,7 @@ public class ProductsInShopsDAO {
                 sort(descending("totalAmount")),
                 limit(1)
         );
+        logger.debug("List size is: {}", shopAddress.size());
         watch.stop();
         double sec = watch.getTime();
         logger.info("Row found for {} milliseconds", sec);
@@ -158,6 +162,7 @@ public class ProductsInShopsDAO {
     }
 
     private void printResults(MongoCollection<Document> productsInShopsCollection, List<Bson> shopAddress, String type) {
+        logger.debug("Printing results");
         AggregateIterable<Document> result = productsInShopsCollection.aggregate(shopAddress);
         for (Document doc : result) {
             logger.debug("Document is: {}", doc);
