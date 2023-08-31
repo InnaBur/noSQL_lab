@@ -27,7 +27,6 @@ class ShopDAOTest {
     MongoCollection<Document> mockCollection = mock(MongoCollection.class);
 
     @Test
-
     void insertDataTest() throws IOException {
 
         List<String> fileData = Arrays.asList("Hello", "World");
@@ -37,7 +36,7 @@ class ShopDAOTest {
         shopDAO.insertDataIntoCollection(mockDatabase);
 
         verify(mockDatabase, times(1)).getCollection(anyString());
-        verify(mockCollection,times(1)).insertMany(argThat(documents -> documents.size() == 2));
+        verify(mockCollection, times(1)).insertMany(argThat(documents -> documents.size() == 2));
     }
 
 }

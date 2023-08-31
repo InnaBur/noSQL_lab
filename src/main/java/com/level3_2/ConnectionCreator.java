@@ -5,15 +5,13 @@ import com.mongodb.client.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-//
-
 public class ConnectionCreator {
 
     private static final Logger logger = LoggerFactory.getLogger(ConnectionCreator.class);
     public MongoClient createConnection () {
         String template = "mongodb://%s:%s@%s/%s?ssl=true&replicaSet=rs0&readpreference=%s";
 
-        String username = "mongoDB";
+        String username = "myMongoDb";
         String password = "admin123";
         String db = "myMongoDb";
         String clusterEndpoint = "docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017";

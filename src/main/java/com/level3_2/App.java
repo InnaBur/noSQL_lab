@@ -27,10 +27,10 @@ public class App {
 
         logger.debug("Start program");
         Properties properties = new FileProcessing().loadProperties();
-        String uri = properties.getProperty("uri");
-
-        try (MongoClient mongoClient = MongoClients.create(uri)) {
-//       try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
+//        String uri = properties.getProperty("uri");
+//
+//        try (MongoClient mongoClient = MongoClients.create(uri)) {
+        try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
             logger.debug("MongoDB was created");
 
             MongoDatabase database = mongoClient.getDatabase("myMongoDb");
