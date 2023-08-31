@@ -111,14 +111,6 @@ public class ProductsInShopsDAO {
         });
     }
 
-
-    private void insertRest(List<Document> documents, MongoCollection<Document> collection) {
-        if (documents.size() > 0) {
-            collection.insertMany(documents);
-            logger.info("Inserted {} documents", documents.size());
-        }
-    }
-
     private void insertBatch(MongoCollection<Document> collection, List<Document> documents, int count, int i) {
         collection.insertMany(documents);
         logger.debug("Inserted {} rows in {} thread", count, i);
@@ -132,9 +124,7 @@ public class ProductsInShopsDAO {
     }
 
     private void logBatchNum(int count, int i) {
-//        if (count % batchSize == 0) {
         logger.debug("{} rows inserted in {} thread", count, i);
-//        }
     }
 
     public void findShopByProductType(MongoDatabase database) {

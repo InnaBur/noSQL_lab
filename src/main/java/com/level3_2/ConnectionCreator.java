@@ -14,7 +14,7 @@ public class ConnectionCreator {
         Properties properties = new FileProcessing().loadProperties();
         String uri = properties.getProperty("uri");
 
-        if (uri.equals("mongodb://myMongoDb:admin123@docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017/myMongo?readpreference=secondaryPreferred")) {
+        if (uri.equals("mongodb://myMongoDb:admin123@docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017/myMongo?ssl=true&readpreference=secondaryPreferred")) {
             String truststore = "/home/ubuntu/mongo/rds-truststore.jks";
             String truststorePassword = "adminPass";
             System.setProperty("javax.net.ssl.trustStore", truststore);
