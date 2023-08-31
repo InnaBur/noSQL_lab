@@ -44,7 +44,8 @@ public class ProductsInShopsDAO {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS_IN_SHOPS);
         int batchSize = Integer.parseInt(properties.getProperty("batch"));
         int rows = Integer.parseInt(properties.getProperty("rows"));
-        int numThreads = Integer.parseInt(properties.getProperty("numThreads"));;
+//        int numThreads = Integer.parseInt(properties.getProperty("numThreads"));
+        int numThreads = 4;
         ExecutorService executorService = Executors.newFixedThreadPool(numThreads);
 
         StopWatch watch;

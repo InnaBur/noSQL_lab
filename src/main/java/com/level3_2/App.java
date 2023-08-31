@@ -32,21 +32,23 @@ public class App {
     public static void main(String[] args) throws IOException, SQLException {
 
         logger.debug("Start program");
+        Properties properties = new FileProcessing().loadProperties();
 //String uri = "mongodb://myMongoDb:admin124@docdb-2023-08-27-10-58-41." +
 //        "cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017/myMongoDb?readpreference=secondaryPreferred";
 
-        String uri = "mongodb+srv://mongoInna:admin124@cluster0.qg9kdnn.mongodb.net/?retryWrites=true&w=majority";
+//        String uri = "mongodb+srv://mongoInna:admin124@cluster0.qg9kdnn.mongodb.net/?retryWrites=true&w=majority";
+        String uri = properties.getProperty("uri");
 //        String uri = "mongodb://localhost:27017";
-//        try (MongoClient mongoClient = MongoClients.create(uri)) {
-        try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
+        try (MongoClient mongoClient = MongoClients.create(uri)) {
+//       / try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
             logger.debug("MongoDB was created");
 
             MongoDatabase database = mongoClient.getDatabase("myMongoDb");
+            logger.debug("DB was got");
 
             CollectionsCreator collectionsCreator = new CollectionsCreator();
-            DocumentGenerator documentGenerator = new DocumentGenerator();
             FileProcessing fileProcessing = new FileProcessing();
-            Properties properties = fileProcessing.loadProperties();
+//            Properties properties = fileProcessing.loadProperties();
             ProductTypeDAO productTypeDAO = new ProductTypeDAO();
             ShopDAO shopDAO = new ShopDAO();
             ProductsDAO productsDAO = new ProductsDAO();
