@@ -1,7 +1,5 @@
 package com.level3_2;
 
-import static com.mongodb.client.model.Filters.eq;
-
 import com.level3_2.dao.ProductTypeDAO;
 import com.level3_2.dao.ProductsDAO;
 import com.level3_2.dao.ProductsInShopsDAO;
