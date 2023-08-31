@@ -5,25 +5,21 @@ import com.mongodb.client.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.Properties;
+
 public class ConnectionCreator {
 
     private static final Logger logger = LoggerFactory.getLogger(ConnectionCreator.class);
     public MongoClient createConnection () {
-        String template = "mongodb://%s:%s@%s/%s?ssl=true&replicaSet=rs0&readpreference=%s";
-
-        String username = "myMongoDb";
-        String password = "admin123";
-        String db = "myMongoDb";
-        String clusterEndpoint = "docdb-2023-08-27-10-58-41.cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017";
-        String readPreference = "secondaryPreferred";
-        String connectionString = String.format(template, username, password, clusterEndpoint, db, readPreference);
+        Properties properties = new FileProcessing().loadProperties();
+        String uri = properties.getProperty("uri");
 
         String truststore = "/home/ubuntu/mongo/rds-truststore.jks";
         String truststorePassword = "adminPass";
         System.setProperty("javax.net.ssl.trustStore", truststore);
         System.setProperty("javax.net.ssl.trustStorePassword", truststorePassword);
 
-        MongoClient mongoClient = MongoClients.create(connectionString);
+        MongoClient mongoClient = MongoClients.create(uri);
 
         logger.info("Mongo client creates");
 
