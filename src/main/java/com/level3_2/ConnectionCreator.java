@@ -15,11 +15,14 @@ import com.mongodb.client.MongoCollection;
 import com.mongodb.client.MongoCursor;
 import com.mongodb.client.MongoDatabase;
 import org.bson.Document;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-import static com.level3_2.dao.DAO.logger;
+//
 
 public class ConnectionCreator {
 
+    private static final Logger logger = LoggerFactory.getLogger(ConnectionCreator.class);
     public MongoClient createConnection () {
         String template = "mongodb://%s:%s@%s/%s?ssl=true&replicaSet=rs0&readpreference=%s";
 
