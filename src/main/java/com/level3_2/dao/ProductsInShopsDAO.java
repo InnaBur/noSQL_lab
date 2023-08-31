@@ -44,7 +44,6 @@ public class ProductsInShopsDAO {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS_IN_SHOPS);
         int batchSize = Integer.parseInt(properties.getProperty("batch"));
         int rows = Integer.parseInt(properties.getProperty("rows"));
-//        int numThreads = Integer.parseInt(properties.getProperty("numThreads"));
         int numThreads = 4;
         ExecutorService executorService = Executors.newFixedThreadPool(numThreads);
 
@@ -76,8 +75,6 @@ public class ProductsInShopsDAO {
         if (restRows > 0) {
             logger.debug("Inserted rest");
             insertRest(productDtos, shop, collection, restRows);
-
-//                insertInThreads((numThreads - 1) * rowsInThread, rowsInThread, restRows, executorService, productDtos, shop, collection, batchSize)
         }
         watch.stop();
 
@@ -183,9 +180,6 @@ public class ProductsInShopsDAO {
         }
         return endIdx;
     }
-
-//    int startIndex = i * rowsInThread;
-//    int endIndex = getEnd(i, startIndex, restRows, rowsInThread);
 
 //    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos, List<String> shop) {
 //

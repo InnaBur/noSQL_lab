@@ -20,6 +20,7 @@ public class CollectionsCreator {
         createCollection(database, collectionProductType);
         createCollection(database, collectionProducts);
         createCollection(database, collectionProductsInShops);
+        logger.info("Collections created");
     }
 
     public void createCollection(MongoDatabase database, String collectionName) {
