@@ -852,3 +852,160 @@
 31.08.2023 17:47:56.578 [main] DEBUG c.l.d.ProductsInShopsDAO - Document is: Document{{_id=Київ, пр-т Правди, 47, totalAmount=17216}}
 31.08.2023 17:47:56.578 [main] INFO  c.l.d.ProductsInShopsDAO - The largest number of products (17216) of the Food type is in the store at the address: Київ, пр-т Правди, 47
 31.08.2023 17:47:56.583 [main] INFO  com.level3_2.App - Program finished
+31.08.2023 18:13:36.609 [main] DEBUG com.level3_2.App - Start program
+31.08.2023 18:13:36.613 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 18:13:36.615 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 18:13:36.952 [main] DEBUG com.level3_2.App - MongoDB was created
+31.08.2023 18:13:36.961 [main] DEBUG com.level3_2.App - DB was got
+31.08.2023 18:13:36.966 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 18:13:36.967 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 18:13:37.017 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+31.08.2023 18:13:37.018 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+31.08.2023 18:13:37.205 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 18:13:37.205 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 18:13:37.213 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:13:37.250 [main] DEBUG c.l.CollectionsCreator - Collection shop dropped
+31.08.2023 18:13:37.271 [main] DEBUG c.l.CollectionsCreator - Collection shop created
+31.08.2023 18:13:37.271 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:13:37.273 [main] DEBUG c.l.CollectionsCreator - Collection type dropped
+31.08.2023 18:13:37.284 [main] DEBUG c.l.CollectionsCreator - Collection type created
+31.08.2023 18:13:37.284 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:13:37.286 [main] DEBUG c.l.CollectionsCreator - Collection products dropped
+31.08.2023 18:13:37.295 [main] DEBUG c.l.CollectionsCreator - Collection products created
+31.08.2023 18:13:37.295 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 18:13:37.297 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops dropped
+31.08.2023 18:13:37.307 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops created
+31.08.2023 18:13:37.308 [main] INFO  c.l.CollectionsCreator - Collections created
+31.08.2023 18:13:37.308 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+31.08.2023 18:13:37.308 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+31.08.2023 18:13:37.337 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+31.08.2023 18:13:37.338 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+31.08.2023 18:13:37.338 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+31.08.2023 18:13:37.340 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'type' inserted
+31.08.2023 18:13:37.340 [main] DEBUG c.l.DocumentGenerator - Generating products list
+31.08.2023 18:13:37.711 [main] INFO  c.l.DocumentGenerator - Generated 5000 DTO
+31.08.2023 18:13:37.711 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.355 
+31.08.2023 18:13:37.712 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 14084.507042253523 
+31.08.2023 18:13:37.712 [main] DEBUG c.level3_2.dao.DAO - Start inserting data into collection 'products'
+31.08.2023 18:13:37.810 [main] INFO  c.level3_2.dao.DAO - Inserted RPS into products is 0.097 
+31.08.2023 18:13:37.810 [main] INFO  c.level3_2.dao.DAO - Inserted RPS rows in second 51546.39175257732 
+31.08.2023 18:13:37.810 [main] INFO  c.level3_2.dao.DAO - Inserted rows 5000 
+31.08.2023 18:13:37.811 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'products' inserted
+31.08.2023 18:13:37.846 [main] INFO  c.level3_2.dao.DAO - Products list was got
+31.08.2023 18:13:37.848 [main] INFO  c.level3_2.dao.DAO - Shops list was got
+31.08.2023 18:13:37.946 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 1 thread
+31.08.2023 18:13:37.947 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 3 thread
+31.08.2023 18:13:37.950 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 0 thread
+31.08.2023 18:13:37.951 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 1000 rows in 2 thread
+31.08.2023 18:13:38.037 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 1 thread
+31.08.2023 18:13:38.041 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 2 thread
+31.08.2023 18:13:38.043 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 0 thread
+31.08.2023 18:13:38.044 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 2000 rows in 3 thread
+31.08.2023 18:13:38.110 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3000 rows in 1 thread
+31.08.2023 18:13:38.129 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3000 rows in 2 thread
+31.08.2023 18:13:38.132 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3000 rows in 0 thread
+31.08.2023 18:13:38.133 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 3000 rows in 3 thread
+31.08.2023 18:13:38.161 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4000 rows in 1 thread
+31.08.2023 18:13:38.195 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4000 rows in 2 thread
+31.08.2023 18:13:38.197 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4000 rows in 0 thread
+31.08.2023 18:13:38.203 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 4000 rows in 3 thread
+31.08.2023 18:13:38.223 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5000 rows in 1 thread
+31.08.2023 18:13:38.246 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5000 rows in 2 thread
+31.08.2023 18:13:38.247 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5000 rows in 0 thread
+31.08.2023 18:13:38.253 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 5000 rows in 3 thread
+31.08.2023 18:13:38.263 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6000 rows in 1 thread
+31.08.2023 18:13:38.286 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6000 rows in 2 thread
+31.08.2023 18:13:38.290 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6000 rows in 0 thread
+31.08.2023 18:13:38.304 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 6000 rows in 3 thread
+31.08.2023 18:13:38.305 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7000 rows in 1 thread
+31.08.2023 18:13:38.315 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7000 rows in 2 thread
+31.08.2023 18:13:38.321 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7000 rows in 0 thread
+31.08.2023 18:13:38.328 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 7000 rows in 3 thread
+31.08.2023 18:13:38.328 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 8000 rows in 1 thread
+31.08.2023 18:13:38.334 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 8000 rows in 2 thread
+31.08.2023 18:13:38.340 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 8000 rows in 0 thread
+31.08.2023 18:13:38.348 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 9000 rows in 1 thread
+31.08.2023 18:13:38.348 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 8000 rows in 3 thread
+31.08.2023 18:13:38.353 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 9000 rows in 2 thread
+31.08.2023 18:13:38.359 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 9000 rows in 0 thread
+31.08.2023 18:13:38.373 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 10000 rows in 1 thread
+31.08.2023 18:13:38.374 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 9000 rows in 3 thread
+31.08.2023 18:13:38.377 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 10000 rows in 2 thread
+31.08.2023 18:13:38.394 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 10000 rows in 0 thread
+31.08.2023 18:13:38.407 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 10000 rows in 3 thread
+31.08.2023 18:13:38.410 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 11000 rows in 1 thread
+31.08.2023 18:13:38.410 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 11000 rows in 2 thread
+31.08.2023 18:13:38.423 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 11000 rows in 0 thread
+31.08.2023 18:13:38.438 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 11000 rows in 3 thread
+31.08.2023 18:13:38.439 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 12000 rows in 2 thread
+31.08.2023 18:13:38.440 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 12000 rows in 1 thread
+31.08.2023 18:13:38.453 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 12000 rows in 0 thread
+31.08.2023 18:13:38.463 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 13000 rows in 2 thread
+31.08.2023 18:13:38.465 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 12000 rows in 3 thread
+31.08.2023 18:13:38.469 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 13000 rows in 1 thread
+31.08.2023 18:13:38.474 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 13000 rows in 0 thread
+31.08.2023 18:13:38.486 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 14000 rows in 2 thread
+31.08.2023 18:13:38.486 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 13000 rows in 3 thread
+31.08.2023 18:13:38.489 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 14000 rows in 1 thread
+31.08.2023 18:13:38.493 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 14000 rows in 0 thread
+31.08.2023 18:13:38.507 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 15000 rows in 2 thread
+31.08.2023 18:13:38.507 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 14000 rows in 3 thread
+31.08.2023 18:13:38.510 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 15000 rows in 1 thread
+31.08.2023 18:13:38.514 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 15000 rows in 0 thread
+31.08.2023 18:13:38.527 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 16000 rows in 2 thread
+31.08.2023 18:13:38.528 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 15000 rows in 3 thread
+31.08.2023 18:13:38.529 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 16000 rows in 1 thread
+31.08.2023 18:13:38.532 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 16000 rows in 0 thread
+31.08.2023 18:13:38.546 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 16000 rows in 3 thread
+31.08.2023 18:13:38.547 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 17000 rows in 2 thread
+31.08.2023 18:13:38.550 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 17000 rows in 1 thread
+31.08.2023 18:13:38.551 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 17000 rows in 0 thread
+31.08.2023 18:13:38.564 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 17000 rows in 3 thread
+31.08.2023 18:13:38.565 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 18000 rows in 2 thread
+31.08.2023 18:13:38.567 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 18000 rows in 1 thread
+31.08.2023 18:13:38.568 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 18000 rows in 0 thread
+31.08.2023 18:13:38.583 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 18000 rows in 3 thread
+31.08.2023 18:13:38.583 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 19000 rows in 2 thread
+31.08.2023 18:13:38.587 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 19000 rows in 0 thread
+31.08.2023 18:13:38.587 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 19000 rows in 1 thread
+31.08.2023 18:13:38.603 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 20000 rows in 2 thread
+31.08.2023 18:13:38.604 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 19000 rows in 3 thread
+31.08.2023 18:13:38.608 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 20000 rows in 0 thread
+31.08.2023 18:13:38.611 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 20000 rows in 1 thread
+31.08.2023 18:13:38.623 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 20000 rows in 3 thread
+31.08.2023 18:13:38.627 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 21000 rows in 2 thread
+31.08.2023 18:13:38.628 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 21000 rows in 0 thread
+31.08.2023 18:13:38.629 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 21000 rows in 1 thread
+31.08.2023 18:13:38.642 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 21000 rows in 3 thread
+31.08.2023 18:13:38.642 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 22000 rows in 2 thread
+31.08.2023 18:13:38.644 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 22000 rows in 0 thread
+31.08.2023 18:13:38.647 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 22000 rows in 1 thread
+31.08.2023 18:13:38.666 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 22000 rows in 3 thread
+31.08.2023 18:13:38.667 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 23000 rows in 2 thread
+31.08.2023 18:13:38.669 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 23000 rows in 0 thread
+31.08.2023 18:13:38.670 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 23000 rows in 1 thread
+31.08.2023 18:13:38.681 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 23000 rows in 3 thread
+31.08.2023 18:13:38.682 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 24000 rows in 2 thread
+31.08.2023 18:13:38.684 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 24000 rows in 1 thread
+31.08.2023 18:13:38.686 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 24000 rows in 0 thread
+31.08.2023 18:13:38.697 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 24000 rows in 3 thread
+31.08.2023 18:13:38.698 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - Inserted 25000 rows in 1 thread
+31.08.2023 18:13:38.698 [pool-1-thread-2] DEBUG c.l.d.ProductsInShopsDAO - 25125 rows inserted in 1 thread
+31.08.2023 18:13:38.700 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - Inserted 25000 rows in 2 thread
+31.08.2023 18:13:38.700 [pool-1-thread-3] DEBUG c.l.d.ProductsInShopsDAO - 25125 rows inserted in 2 thread
+31.08.2023 18:13:38.703 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - Inserted 25000 rows in 0 thread
+31.08.2023 18:13:38.703 [pool-1-thread-1] DEBUG c.l.d.ProductsInShopsDAO - 25125 rows inserted in 0 thread
+31.08.2023 18:13:38.709 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - Inserted 25000 rows in 3 thread
+31.08.2023 18:13:38.709 [pool-1-thread-4] DEBUG c.l.d.ProductsInShopsDAO - 25125 rows inserted in 3 thread
+31.08.2023 18:13:38.709 [main] DEBUG c.l.d.ProductsInShopsDAO - Threads finished
+31.08.2023 18:13:38.709 [main] DEBUG c.l.d.ProductsInShopsDAO - Inserted rest
+31.08.2023 18:13:38.710 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted 3 documents
+31.08.2023 18:13:38.710 [main] DEBUG c.l.d.ProductsInShopsDAO - 3 rows inserted in 5 thread
+31.08.2023 18:13:38.710 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS into COLLECTION_PRODUCTS_IN_SHOPS is 0.861 
+31.08.2023 18:13:38.711 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted RPS rows in second 116728.22299651569 
+31.08.2023 18:13:38.711 [main] INFO  c.l.d.ProductsInShopsDAO - Inserted 100503 rows into COLLECTION_PRODUCTS_IN_SHOPS  
+31.08.2023 18:13:38.711 [main] ERROR c.l.DataProcessing - You need to input product type. Now type is Food
+31.08.2023 18:13:38.720 [main] INFO  c.l.d.ProductsInShopsDAO - Row found for 6.0 milliseconds
+31.08.2023 18:13:38.775 [main] DEBUG c.l.d.ProductsInShopsDAO - Document is: Document{{_id=Київ, пр-т Соборності, 7-Б, totalAmount=19631}}
+31.08.2023 18:13:38.776 [main] INFO  c.l.d.ProductsInShopsDAO - The largest number of products (19631) of the Food type is in the store at the address: Київ, пр-т Соборності, 7-Б
+31.08.2023 18:13:38.782 [main] INFO  com.level3_2.App - Program finished
