@@ -1,20 +1,7 @@
 package com.level3_2;
 
 import com.mongodb.client.*;
-//import com.mongodb.MongoClient;
-//import com.mongodb.MongoClientURI;
-import com.mongodb.ServerAddress;
-import com.mongodb.MongoException;
-import com.mongodb.client.MongoCursor;
-import com.mongodb.client.MongoDatabase;
-import com.mongodb.client.MongoCollection;
-import org.bson.Document;
 
-import org.bson.Document;
-import com.mongodb.client.MongoCollection;
-import com.mongodb.client.MongoCursor;
-import com.mongodb.client.MongoDatabase;
-import org.bson.Document;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

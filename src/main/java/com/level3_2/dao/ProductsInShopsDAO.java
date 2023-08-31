@@ -54,15 +54,11 @@ public class ProductsInShopsDAO {
         System.out.println("REST Rows " + restRows);
 
         try {
-
-
             watch = new StopWatch();
             watch.start();
 
             for (int i = 0; i < numThreads; i++) {
                 insertInThreads(i, rowsInThread, restRows, executorService, productDtos, shop, collection, batchSize);
-
-
             }
 
 
@@ -76,36 +72,40 @@ public class ProductsInShopsDAO {
                 executorService.shutdownNow();
             }
         }
+        logger.debug("Threads finished");
         if (restRows > 0) {
-            int count = 0;
-            List<Document> documents = new LinkedList<>();
-            for (int j = 0; j < restRows; j++) {
+            logger.debug("Inserted rest");
+            insertRest(productDtos, shop, collection, restRows);
 
-                documents.add(documentGenerator.generateStoreDTO(productDtos, shop));
-                count++;
-
-            }
-            collection.insertMany(documents);
-            logger.info("Inserted {} documents", documents.size());
-            logBatchNum(count, batchSize, numThreads + 1);
 //                insertInThreads((numThreads - 1) * rowsInThread, rowsInThread, restRows, executorService, productDtos, shop, collection, batchSize)
         }
         watch.stop();
 
         logRPS(watch, rows, "COLLECTION_PRODUCTS_IN_SHOPS");
-//        insertDataIntoCollection(database, productDtos, shop);
-//                        insertBatchData(database, productDtos, shop, startIndex, endIndex, batchSize);
+    }
+
+    private void insertRest(List<ProductDto> productDtos, List<String> shop, MongoCollection<Document> collection, int restRows) {
+        int count = 0;
+        List<Document> documents = new LinkedList<>();
+        for (int j = 0; j < restRows; j++) {
+
+            documents.add(documentGenerator.generateStoreDTO(productDtos, shop));
+            count++;
+
+        }
+        collection.insertMany(documents);
+        logger.info("Inserted {} documents", documents.size());
+        logBatchNum(count, 5);
     }
 
     private void insertInThreads(int i, int rowsInThread, int restRows, ExecutorService executorService,
                                  List<ProductDto> productDtos, List<String> shop, MongoCollection<Document> collection, int batchSize) {
-        int startIndex = i * rowsInThread;
-        int endIndex = getEnd(i, startIndex, restRows, rowsInThread);
+
         List<Document> documents = new LinkedList<>();
         executorService.submit(() -> {
 
             int count = 0;
-            for (int j = startIndex; j < endIndex; j++) {
+            for (int j = 0; j < rowsInThread; j++) {
 
                 documents.add(documentGenerator.generateStoreDTO(productDtos, shop));
                 count++;
@@ -113,45 +113,12 @@ public class ProductsInShopsDAO {
                     insertBatch(collection, documents, count, i);
                     documents.clear();
                 }
-
             }
-            logBatchNum(count, batchSize, i);
-
-//
+            logBatchNum(count, i);
         });
     }
 
 
-    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos, List<String> shop) {
-
-        MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS_IN_SHOPS);
-        int batchSize = Integer.parseInt(properties.getProperty("batch"));
-        int rows = Integer.parseInt(properties.getProperty("rows"));
-        List<Document> documents = new LinkedList<>();
-
-        StopWatch watch = new StopWatch();
-        watch.start();
-
-        int count = 0;
-        for (int i = 0; i < rows; i++) {
-
-            documents.add(documentGenerator.generateStoreDTO(productDtos, shop));
-            count++;
-            if (count % batchSize == 0) {
-                insertBatch(collection, documents, count, i);
-                documents.clear();
-            }
-        }
-        logBatchNum(count, batchSize, 1);
-        insertRest(documents, collection);
-
-        logger.debug("Data into Products table inserted");
-
-        watch.stop();
-
-        logRPS(watch, count, COLLECTION_PRODUCTS_IN_SHOPS);
-        logger.debug("Data into collection 'products' inserted");
-    }
 
     private void insertRest(List<Document> documents, MongoCollection<Document> collection) {
         if (documents.size() > 0) {
@@ -172,10 +139,10 @@ public class ProductsInShopsDAO {
         logger.info("Inserted {} rows into {}  ", count, dbName);
     }
 
-    private void logBatchNum(int count, int batchSize, int i) {
-        if (count % batchSize == 0) {
-            logger.debug("{} rows inserted in {} thread", count, i + 1);
-        }
+    private void logBatchNum(int count, int i) {
+//        if (count % batchSize == 0) {
+            logger.debug("{} rows inserted in {} thread", count, i);
+//        }
     }
 
     public void findShopByProductType(MongoDatabase database) {
@@ -209,11 +176,46 @@ public class ProductsInShopsDAO {
         }
     }
 
-    private static int getEnd(int i, int startIdx, int remainingRows, int rowsPerThread) {
-        int endIdx = startIdx + rowsPerThread;
-        if (i == 5 - 1) {
-            endIdx += remainingRows;
+    private static int getEnd(int i, int startIdx, int restRows, int rowsInThread) {
+        int endIdx = startIdx + rowsInThread;
+        if (i == 4 - 1) {
+            endIdx += restRows;
         }
         return endIdx;
     }
+
+//    int startIndex = i * rowsInThread;
+//    int endIndex = getEnd(i, startIndex, restRows, rowsInThread);
+
+//    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos, List<String> shop) {
+//
+//        MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS_IN_SHOPS);
+//        int batchSize = Integer.parseInt(properties.getProperty("batch"));
+//        int rows = Integer.parseInt(properties.getProperty("rows"));
+//        List<Document> documents = new LinkedList<>();
+//
+//        StopWatch watch = new StopWatch();
+//        watch.start();
+//
+//        int count = 0;
+//        for (int i = 0; i < rows; i++) {
+//
+//            documents.add(documentGenerator.generateStoreDTO(productDtos, shop));
+//            count++;
+//            if (count % batchSize == 0) {
+//                insertBatch(collection, documents, count, i);
+//                documents.clear();
+//            }
+//        }
+//        logBatchNum(count, 1);
+//        insertRest(documents, collection);
+//
+//        logger.debug("Data into Products table inserted");
+//
+//        watch.stop();
+//
+//        logRPS(watch, count, COLLECTION_PRODUCTS_IN_SHOPS);
+//        logger.debug("Data into collection 'products' inserted");
+//    }
+
 }
