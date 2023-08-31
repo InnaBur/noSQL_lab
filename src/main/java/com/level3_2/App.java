@@ -7,11 +7,8 @@ import com.level3_2.dao.ProductsDAO;
 import com.level3_2.dao.ProductsInShopsDAO;
 import com.level3_2.dao.ShopDAO;
 import com.level3_2.dto.ProductDto;
-import com.mongodb.MongoException;
 import com.mongodb.client.*;
-//import com.mongodb.MongoClient;
-import org.apache.commons.lang3.time.StopWatch;
-import org.bson.Document;
+
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,9 +18,6 @@ import java.sql.*;
 
 import java.util.List;
 import java.util.Properties;
-import java.util.concurrent.ExecutorService;
-import java.util.concurrent.Executors;
-import java.util.concurrent.TimeUnit;
 
 public class App {
 

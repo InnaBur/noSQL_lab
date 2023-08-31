@@ -34,6 +34,7 @@ public class ProductsInShopsDAO {
     private static final Logger logger = LoggerFactory.getLogger(ProductsInShopsDAO.class);
     private static final String COLLECTION_PRODUCTS_IN_SHOPS = "ProductsInShops";
     DocumentGenerator documentGenerator = new DocumentGenerator();
+    private static final int NUM_THREADS = 4;
 
     public ProductsInShopsDAO(Properties properties) {
         this.properties = properties;
@@ -44,27 +45,23 @@ public class ProductsInShopsDAO {
         MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS_IN_SHOPS);
         int batchSize = Integer.parseInt(properties.getProperty("batch"));
         int rows = Integer.parseInt(properties.getProperty("rows"));
-        int numThreads = 4;
-        ExecutorService executorService = Executors.newFixedThreadPool(numThreads);
+
+        ExecutorService executorService = Executors.newFixedThreadPool(NUM_THREADS);
 
         StopWatch watch;
-        int rowsInThread = rows / numThreads;
-        int restRows = rows % numThreads;
-        System.out.println("REST Rows " + restRows);
+        int rowsInThread = rows / NUM_THREADS;
+        int restRows = rows % NUM_THREADS;
 
+        watch = new StopWatch();
+        watch.start();
         try {
-            watch = new StopWatch();
-            watch.start();
-
-            for (int i = 0; i < numThreads; i++) {
-                insertInThreads(i, rowsInThread, restRows, executorService, productDtos, shop, collection, batchSize);
+            for (int i = 0; i < NUM_THREADS; i++) {
+                insertInThreads(i, rowsInThread, executorService, productDtos, shop, collection, batchSize);
             }
-
-
         } finally {
             executorService.shutdown();
             try {
-                if (!executorService.awaitTermination(10, TimeUnit.MINUTES)) {
+                if (!executorService.awaitTermination(3, TimeUnit.MINUTES)) {
                     executorService.shutdownNow();
                 }
             } catch (InterruptedException e) {
@@ -72,6 +69,7 @@ public class ProductsInShopsDAO {
             }
         }
         logger.debug("Threads finished");
+
         if (restRows > 0) {
             logger.debug("Inserted rest");
             insertRest(productDtos, shop, collection, restRows);
@@ -85,22 +83,20 @@ public class ProductsInShopsDAO {
         int count = 0;
         List<Document> documents = new LinkedList<>();
         for (int j = 0; j < restRows; j++) {
-
             documents.add(documentGenerator.generateStoreDTO(productDtos, shop));
             count++;
-
         }
         collection.insertMany(documents);
         logger.info("Inserted {} documents", documents.size());
         logBatchNum(count, 5);
     }
 
-    private void insertInThreads(int i, int rowsInThread, int restRows, ExecutorService executorService,
-                                 List<ProductDto> productDtos, List<String> shop, MongoCollection<Document> collection, int batchSize) {
+    private void insertInThreads(int i, int rowsInThread, ExecutorService executorService, List<ProductDto> productDtos,
+                                 List<String> shop, MongoCollection<Document> collection, int batchSize) {
 
-        List<Document> documents = new LinkedList<>();
+
         executorService.submit(() -> {
-
+            List<Document> documents = new LinkedList<>();
             int count = 0;
             for (int j = 0; j < rowsInThread; j++) {
 
@@ -114,7 +110,6 @@ public class ProductsInShopsDAO {
             logBatchNum(count, i);
         });
     }
-
 
 
     private void insertRest(List<Document> documents, MongoCollection<Document> collection) {
@@ -138,7 +133,7 @@ public class ProductsInShopsDAO {
 
     private void logBatchNum(int count, int i) {
 //        if (count % batchSize == 0) {
-            logger.debug("{} rows inserted in {} thread", count, i);
+        logger.debug("{} rows inserted in {} thread", count, i);
 //        }
     }
 

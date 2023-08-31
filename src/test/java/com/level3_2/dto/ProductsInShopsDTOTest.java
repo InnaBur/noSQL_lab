@@ -15,8 +15,6 @@ class ProductsInShopsDTOTest {
         ProductsInShopsDTO productsInShopsDTO = new ProductsInShopsDTO(
                 new ProductDto("name", new ObjectId("123456789101112131415161")),
                 "shop", 10);
-//        Document expect = new Document("{{product=name, type_id=123456789101112131415161, shop=shop, amount=10}}");
-//                ("ProductsInShopsDTO{productDto=ProductDto{productName='name', type_id=123456789101112131415161}, shop='shop', amount=10}");
         Document productDto = new Document("productName", "name")
                 .append("type_id", new ObjectId("123456789101112131415161"));
 
