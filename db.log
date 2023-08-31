@@ -1,0 +1,35 @@
+31.08.2023 15:49:30.156 [main] DEBUG com.level3_2.App - Start program
+31.08.2023 15:49:30.161 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 15:49:30.163 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 15:49:31.644 [main] DEBUG com.level3_2.App - MongoDB was created
+31.08.2023 15:49:31.651 [main] DEBUG com.level3_2.App - DB was got
+31.08.2023 15:49:31.662 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 15:49:31.662 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 15:49:31.713 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+31.08.2023 15:49:31.713 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+31.08.2023 15:49:31.906 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 15:49:31.906 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 15:49:31.910 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 15:49:33.750 [main] DEBUG c.l.CollectionsCreator - Collection shop dropped
+31.08.2023 15:49:33.901 [main] DEBUG c.l.CollectionsCreator - Collection shop created
+31.08.2023 15:49:33.901 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 15:49:33.993 [main] DEBUG c.l.CollectionsCreator - Collection type dropped
+31.08.2023 15:49:34.124 [main] DEBUG c.l.CollectionsCreator - Collection type created
+31.08.2023 15:49:34.125 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 15:49:34.199 [main] DEBUG c.l.CollectionsCreator - Collection products dropped
+31.08.2023 15:49:34.342 [main] DEBUG c.l.CollectionsCreator - Collection products created
+31.08.2023 15:49:34.343 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 15:49:34.427 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops dropped
+31.08.2023 15:49:34.564 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops created
+31.08.2023 15:49:34.564 [main] INFO  c.l.CollectionsCreator - Collections created
+31.08.2023 15:49:34.564 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+31.08.2023 15:49:34.565 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+31.08.2023 15:49:34.642 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+31.08.2023 15:49:34.643 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+31.08.2023 15:49:34.643 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+31.08.2023 15:49:34.684 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'type' inserted
+31.08.2023 15:49:34.684 [main] DEBUG c.l.DocumentGenerator - Generating products list
+31.08.2023 15:49:35.206 [main] INFO  c.l.DocumentGenerator - Generated 10000 DTO
+31.08.2023 15:49:35.206 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.47 
+31.08.2023 15:49:35.207 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 21276.595744680853 
+31.08.2023 15:49:35.207 [main] DEBUG c.level3_2.dao.DAO - Start inserting data into collection 'products'
