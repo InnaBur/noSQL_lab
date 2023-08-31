@@ -36,10 +36,10 @@ public class App {
 //String uri = "mongodb://myMongoDb:admin124@docdb-2023-08-27-10-58-41." +
 //        "cgknngoatzj8.eu-central-1.docdb.amazonaws.com:27017/myMongoDb?readpreference=secondaryPreferred";
 //        String uri = "mongodb+srv://mongoInna:admin124@cluster0.qg9kdnn.mongodb.net/?retryWrites=true&w=majority";
-        String uri = properties.getProperty("uri");
+//       / String uri = properties.getProperty("uri");
 //        String uri = "mongodb://localhost:27017";
-        try (MongoClient mongoClient = MongoClients.create(uri)) {
-//       / try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
+//        try (MongoClient mongoClient = MongoClients.create(uri)) {
+       try (MongoClient mongoClient = new ConnectionCreator().createConnection()) {
             logger.debug("MongoDB was created");
 
             MongoDatabase database = mongoClient.getDatabase("myMongoDb");
