@@ -14,10 +14,10 @@ public class ConnectionCreator {
         Properties properties = new FileProcessing().loadProperties();
         String uri = properties.getProperty("uri");
 
-        String truststore = "/home/ubuntu/mongo/rds-truststore.jks";
-        String truststorePassword = "adminPass";
-        System.setProperty("javax.net.ssl.trustStore", truststore);
-        System.setProperty("javax.net.ssl.trustStorePassword", truststorePassword);
+//        String truststore = "/home/ubuntu/mongo/rds-truststore.jks";
+//        String truststorePassword = "adminPass";
+//        System.setProperty("javax.net.ssl.trustStore", truststore);
+//        System.setProperty("javax.net.ssl.trustStorePassword", truststorePassword);
 
         MongoClient mongoClient = MongoClients.create(uri);
 
