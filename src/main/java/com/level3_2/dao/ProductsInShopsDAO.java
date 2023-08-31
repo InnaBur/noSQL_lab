@@ -158,11 +158,12 @@ public class ProductsInShopsDAO {
         watch.stop();
         double sec = watch.getTime();
         logger.info("Row found for {} milliseconds", sec);
-        printResults(productsInShopsCollection, shopAddress, typeFromConsole);
+        printResults(database, shopAddress, typeFromConsole);
     }
 
-    private void printResults(MongoCollection<Document> productsInShopsCollection, List<Bson> shopAddress, String type) {
+    private void printResults(MongoDatabase database, List<Bson> shopAddress, String type) {
         logger.debug("Printing results");
+        MongoCollection<Document> productsInShopsCollection = database.getCollection("ProductsInShops");
         AggregateIterable<Document> result = productsInShopsCollection.aggregate(shopAddress);
         for (Document doc : result) {
             logger.debug("Document is: {}", doc);
@@ -172,44 +173,5 @@ public class ProductsInShopsDAO {
                     doc.getString("_id"));
         }
     }
-
-    private static int getEnd(int i, int startIdx, int restRows, int rowsInThread) {
-        int endIdx = startIdx + rowsInThread;
-        if (i == 4 - 1) {
-            endIdx += restRows;
-        }
-        return endIdx;
-    }
-
-//    public void insertDataIntoCollection(MongoDatabase database, List<ProductDto> productDtos, List<String> shop) {
-//
-//        MongoCollection<Document> collection = database.getCollection(COLLECTION_PRODUCTS_IN_SHOPS);
-//        int batchSize = Integer.parseInt(properties.getProperty("batch"));
-//        int rows = Integer.parseInt(properties.getProperty("rows"));
-//        List<Document> documents = new LinkedList<>();
-//
-//        StopWatch watch = new StopWatch();
-//        watch.start();
-//
-//        int count = 0;
-//        for (int i = 0; i < rows; i++) {
-//
-//            documents.add(documentGenerator.generateStoreDTO(productDtos, shop));
-//            count++;
-//            if (count % batchSize == 0) {
-//                insertBatch(collection, documents, count, i);
-//                documents.clear();
-//            }
-//        }
-//        logBatchNum(count, 1);
-//        insertRest(documents, collection);
-//
-//        logger.debug("Data into Products table inserted");
-//
-//        watch.stop();
-//
-//        logRPS(watch, count, COLLECTION_PRODUCTS_IN_SHOPS);
-//        logger.debug("Data into collection 'products' inserted");
-//    }
 
 }
