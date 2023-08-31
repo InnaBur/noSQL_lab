@@ -2379,3 +2379,71 @@ Caused by: java.security.UnrecoverableKeyException: Password verification failed
 31.08.2023 19:02:06.382 [main] DEBUG o.m.d.connection - Connection pool closed for ac-0m5yhf3-shard-00-00.qg9kdnn.mongodb.net:27017
 31.08.2023 19:02:16.399 [main] DEBUG o.m.d.connection - Connection pool closed for ac-0m5yhf3-shard-00-02.qg9kdnn.mongodb.net:27017
 31.08.2023 19:02:16.405 [main] INFO  com.level3_2.App - Program finished
+31.08.2023 19:07:34.639 [main] DEBUG com.level3_2.App - Start program
+31.08.2023 19:07:34.643 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:34.645 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:34.654 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:34.654 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:36.187 [main] INFO  c.l.ConnectionCreator - Mongo client creates
+31.08.2023 19:07:36.188 [main] DEBUG com.level3_2.App - MongoDB was created
+31.08.2023 19:07:36.194 [main] DEBUG com.level3_2.App - DB was got
+31.08.2023 19:07:36.197 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:36.197 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:36.239 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+31.08.2023 19:07:36.239 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+31.08.2023 19:07:36.438 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:36.439 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:36.443 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 19:07:43.067 [main] DEBUG com.level3_2.App - Start program
+31.08.2023 19:07:43.072 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:43.074 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:43.076 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:43.076 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:44.603 [main] INFO  c.l.ConnectionCreator - Mongo client creates
+31.08.2023 19:07:44.604 [main] DEBUG com.level3_2.App - MongoDB was created
+31.08.2023 19:07:44.610 [main] DEBUG com.level3_2.App - DB was got
+31.08.2023 19:07:44.615 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:44.616 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:44.670 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+31.08.2023 19:07:44.671 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+31.08.2023 19:07:44.865 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:07:44.865 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:07:44.869 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 19:07:47.115 [main] DEBUG c.l.CollectionsCreator - Collection shop dropped
+31.08.2023 19:07:47.287 [main] DEBUG c.l.CollectionsCreator - Collection shop created
+31.08.2023 19:07:47.288 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 19:07:47.381 [main] DEBUG c.l.CollectionsCreator - Collection type dropped
+31.08.2023 19:07:47.548 [main] DEBUG c.l.CollectionsCreator - Collection type created
+31.08.2023 19:07:47.548 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 19:07:47.621 [main] DEBUG c.l.CollectionsCreator - Collection products dropped
+31.08.2023 19:07:47.890 [main] DEBUG c.l.CollectionsCreator - Collection products created
+31.08.2023 19:07:47.891 [main] INFO  c.l.CollectionsCreator - Start create collection
+31.08.2023 19:07:47.965 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops dropped
+31.08.2023 19:07:48.122 [main] DEBUG c.l.CollectionsCreator - Collection ProductsInShops created
+31.08.2023 19:07:48.123 [main] INFO  c.l.CollectionsCreator - Collections created
+31.08.2023 19:07:48.125 [main] DEBUG c.l.FileProcessing - File shop_address.csv was found
+31.08.2023 19:07:48.126 [main] DEBUG c.l.FileProcessing - Data from the shop_address.csv file was recieved
+31.08.2023 19:07:48.216 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'shops' inserted
+31.08.2023 19:07:48.218 [main] DEBUG c.l.FileProcessing - File product_type.csv was found
+31.08.2023 19:07:48.219 [main] DEBUG c.l.FileProcessing - Data from the product_type.csv file was recieved
+31.08.2023 19:07:48.266 [main] DEBUG c.level3_2.dao.DAO - Data into collection 'type' inserted
+31.08.2023 19:07:48.267 [main] DEBUG c.l.DocumentGenerator - Generating products list
+31.08.2023 19:07:48.724 [main] INFO  c.l.DocumentGenerator - Generated 5000 DTO
+31.08.2023 19:07:48.724 [main] INFO  c.l.DocumentGenerator - RPS of generating is 0.379 
+31.08.2023 19:07:48.726 [main] INFO  c.l.DocumentGenerator - RPS DTO in second 13192.612137203167 
+31.08.2023 19:07:48.726 [main] DEBUG c.level3_2.dao.DAO - Start inserting data into collection 'products'
+31.08.2023 19:08:09.914 [main] DEBUG com.level3_2.App - Start program
+31.08.2023 19:08:09.919 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:08:09.921 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:08:09.922 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:08:09.922 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:08:10.316 [main] INFO  c.l.ConnectionCreator - Mongo client creates
+31.08.2023 19:08:10.318 [main] DEBUG com.level3_2.App - MongoDB was created
+31.08.2023 19:08:10.326 [main] DEBUG com.level3_2.App - DB was got
+31.08.2023 19:08:10.330 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:08:10.330 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:08:10.386 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider
+31.08.2023 19:08:10.387 [main] INFO  o.h.v.i.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+31.08.2023 19:08:10.595 [main] DEBUG c.l.FileProcessing - File config.properties was found
+31.08.2023 19:08:10.595 [main] DEBUG c.l.FileProcessing - Properties were loaded
+31.08.2023 19:08:10.601 [main] INFO  c.l.CollectionsCreator - Start create collection
