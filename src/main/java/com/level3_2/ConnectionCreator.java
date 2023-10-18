@@ -29,20 +29,4 @@ public class ConnectionCreator {
 
 
 
-//    public static MongoClient createConnectionWithoutTLS () {
-//        String template = "mongodb://%s:%s@%s/%s?replicaSet=rs0&readpreference=%s";
-//        String username = "mongoDB";
-//        String password = "admin123";
-//        String db = "myMongoDb";
-//        String clusterEndpoint = "docdb-2023-08-27-10-58-41.cluster-cgknngoatzj8.eu-central-1.docdb.amazonaws.com";
-//        String readPreference = "secondaryPreferred";
-//        String connectionString = String.format(template, username, password, clusterEndpoint, db, readPreference);
-//
-//        MongoClientURI clientURI = new MongoClientURI(connectionString);
-//        MongoClient mongoClient = new MongoClient(clientURI);
-//
-//
-//        return mongoClient;
-//    }
-
 }
